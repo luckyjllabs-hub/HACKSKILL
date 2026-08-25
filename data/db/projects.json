@@ -50,6 +50,2966 @@
     "team": [
       {
         "student": {
+          "id": "student-204",
+          "name": "Neha Pillai",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science & Engineering",
+          "year": 1,
+          "bio": "Year 1 Computer Science & Engineering student specializing in UI/UX Designer. Passionate about building impactful projects in IoT and EdTech and BioTech.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 3,
+          "skills": [
+            {
+              "name": "Frontend",
+              "level": "Advanced"
+            },
+            {
+              "name": "Figma",
+              "level": "Intermediate"
+            },
+            {
+              "name": "React Native",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Computer Vision",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Next.js",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "IoT",
+            "EdTech",
+            "BioTech"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings"
+          ],
+          "pastProjects": [
+            {
+              "title": "Urban Heat Island Geospatial Map",
+              "description": "Developed scalable architecture for urban heat island geospatial map utilizing Frontend and Figma.",
+              "category": "Smart Cities",
+              "skills": [
+                "Geospatial Data",
+                "GIS",
+                "Python"
+              ]
+            },
+            {
+              "title": "Campus Solid Waste Classification",
+              "description": "Collaborated in a sprint team to deliver campus solid waste classification with focus on end-to-end integration.",
+              "category": "Sustainability",
+              "skills": [
+                "Computer Vision",
+                "Deep Learning",
+                "Sustainability"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "UI/UX Designer",
+            "NLP Researcher"
+          ]
+        },
+        "overallScore": 61,
+        "assignedRole": "UI/UX Designer",
+        "breakdown": {
+          "skillMatch": 29,
+          "interestAlignment": 70,
+          "availability": 90,
+          "experience": 90,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 85
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision"
+        ],
+        "matchedPreferredSkills": [
+          "Frontend",
+          "UI/UX"
+        ],
+        "matchedInterests": [
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Urban Heat Island Geospatial Map",
+          "Campus Solid Waste Classification"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-049",
+          "name": "Rohit Desai",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=250",
+          "department": "Artificial Intelligence & Machine Learning",
+          "year": 2,
+          "bio": "Year 2 Artificial Intelligence & Machine Learning student specializing in Healthcare AI Specialist. Passionate about building impactful projects in Healthcare and Smart Cities and Sustainability.",
+          "experienceLevel": "Beginner",
+          "collaborationStyle": "Structured & Methodical",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Machine Learning",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Robotics",
+              "level": "Intermediate"
+            },
+            {
+              "name": "ROS",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "Healthcare",
+            "Smart Cities",
+            "Sustainability"
+          ],
+          "availability": [
+            "Weekends",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Student Mental Health Companion",
+              "description": "Developed scalable architecture for student mental health companion utilizing Machine Learning and Robotics.",
+              "category": "Healthcare",
+              "skills": [
+                "Natural Language Processing",
+                "React",
+                "UI/UX"
+              ]
+            },
+            {
+              "title": "Campus Solid Waste Classification",
+              "description": "Collaborated in a sprint team to deliver campus solid waste classification with focus on end-to-end integration.",
+              "category": "Sustainability",
+              "skills": [
+                "Computer Vision",
+                "Deep Learning",
+                "Sustainability"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "Healthcare AI Specialist",
+            "Backend Architect"
+          ]
+        },
+        "overallScore": 60,
+        "assignedRole": "Healthcare AI Specialist",
+        "breakdown": {
+          "skillMatch": 16,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 50,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 90
+        },
+        "matchedRequiredSkills": [
+          "Machine Learning"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Student Mental Health Companion",
+          "Campus Solid Waste Classification"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-010",
+          "name": "Vikramaditya Sandhu",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=250",
+          "department": "Economics & Quantitative Finance",
+          "year": 3,
+          "bio": "Year 3 Economics & Quantitative Finance student specializing in IoT & Embedded Engineer. Passionate about building impactful projects in EdTech and IoT and E-Commerce.",
+          "experienceLevel": "Expert",
+          "collaborationStyle": "Creative / Exploratory",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "IoT",
+              "level": "Expert"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Advanced"
+            },
+            {
+              "name": "Sustainability",
+              "level": "Intermediate"
+            },
+            {
+              "name": "MongoDB",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Docker",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "EdTech",
+            "IoT",
+            "E-Commerce"
+          ],
+          "availability": [
+            "Evenings",
+            "Weekends"
+          ],
+          "pastProjects": [
+            {
+              "title": "Peer-to-Peer Notes & Resource Sharing",
+              "description": "Developed scalable architecture for peer-to-peer notes & resource sharing utilizing IoT and Machine Learning.",
+              "category": "EdTech",
+              "skills": [
+                "Full Stack",
+                "Next.js",
+                "PostgreSQL"
+              ]
+            },
+            {
+              "title": "Student Mental Health Companion",
+              "description": "Collaborated in a sprint team to deliver student mental health companion with focus on end-to-end integration.",
+              "category": "Healthcare",
+              "skills": [
+                "Natural Language Processing",
+                "React",
+                "UI/UX"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "IoT & Embedded Engineer",
+            "Cloud & DevOps Engineer"
+          ]
+        },
+        "overallScore": 62,
+        "assignedRole": "IoT & Embedded Engineer",
+        "breakdown": {
+          "skillMatch": 90,
+          "interestAlignment": 85,
+          "availability": 95,
+          "experience": 80,
+          "pastProjectRelevance": 85,
+          "collaborationFit": 80
+        },
+        "matchedRequiredSkills": [
+          "Sustainability"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Peer-to-Peer Notes & Resource Sharing",
+          "Student Mental Health Companion"
+        ]
+      }
+    ],
+    "teamScore": 91,
+    "breakdown": {
+      "skillCoverage": 100,
+      "complementarity": 100,
+      "candidateQuality": 61,
+      "interestAlignment": 85,
+      "availability": 95,
+      "experienceRelevance": 81
+    },
+    "teamHealth": {
+      "overallHealth": "Needs Attention",
+      "healthScore": 43,
+      "coveredSkills": [
+        {
+          "skill": "Machine Learning",
+          "status": "strong",
+          "coveragePercent": 85,
+          "coveredBy": [
+            {
+              "studentId": "student-049",
+              "studentName": "Rohit Desai",
+              "level": "Intermediate"
+            },
+            {
+              "studentId": "student-010",
+              "studentName": "Vikramaditya Sandhu",
+              "level": "Advanced"
+            }
+          ]
+        },
+        {
+          "skill": "Frontend",
+          "status": "strong",
+          "coveragePercent": 85,
+          "coveredBy": [
+            {
+              "studentId": "student-204",
+              "studentName": "Neha Pillai",
+              "level": "Advanced"
+            }
+          ]
+        }
+      ],
+      "weakSkills": [
+        {
+          "skill": "Computer Vision",
+          "status": "weak",
+          "coveragePercent": 65,
+          "coveredBy": [
+            {
+              "studentId": "student-204",
+              "studentName": "Neha Pillai",
+              "level": "Intermediate"
+            }
+          ]
+        },
+        {
+          "skill": "Sustainability",
+          "status": "weak",
+          "coveragePercent": 65,
+          "coveredBy": [
+            {
+              "studentId": "student-010",
+              "studentName": "Vikramaditya Sandhu",
+              "level": "Intermediate"
+            }
+          ]
+        },
+        {
+          "skill": "Backend",
+          "status": "weak",
+          "coveragePercent": 0,
+          "coveredBy": []
+        },
+        {
+          "skill": "UI/UX",
+          "status": "weak",
+          "coveragePercent": 65,
+          "coveredBy": [
+            {
+              "studentId": "student-204",
+              "studentName": "Neha Pillai",
+              "level": "Intermediate"
+            }
+          ]
+        }
+      ],
+      "missingSkills": [],
+      "redundantSkills": [],
+      "availabilityOverlapPercent": 82,
+      "criticalGapDetected": "Computer Vision"
+    },
+    "createdAt": "2026-08-25T08:32:51.598Z",
+    "id": "proj_1787646771599_arwhl",
+    "updatedAt": "2026-08-25T08:32:51.599Z"
+  },
+  {
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability",
+        "Smart Cities"
+      ],
+      "requiredSkills": [
+        "Computer Vision",
+        "Machine Learning",
+        "Sustainability"
+      ],
+      "preferredSkills": [
+        "Frontend",
+        "Backend",
+        "UI/UX"
+      ],
+      "roles": [
+        "ML Engineer",
+        "Full Stack Developer",
+        "UI/UX Designer",
+        "Domain Specialist"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [
+        "Project-level execution experience",
+        "Collaboration track record"
+      ],
+      "availabilityRequirement": "Flexible (Any Sprint Schedule)",
+      "normalizedSkills": [
+        {
+          "original": "Computer Vision",
+          "canonical": "Computer Vision",
+          "confidence": 1
+        },
+        {
+          "original": "Machine Learning",
+          "canonical": "Machine Learning",
+          "confidence": 1
+        },
+        {
+          "original": "Sustainability",
+          "canonical": "Sustainability",
+          "confidence": 1
+        }
+      ],
+      "isFallback": true
+    },
+    "team": [
+      {
+        "student": {
+          "id": "student-204",
+          "name": "Neha Pillai",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science & Engineering",
+          "year": 1,
+          "bio": "Year 1 Computer Science & Engineering student specializing in UI/UX Designer. Passionate about building impactful projects in IoT and EdTech and BioTech.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 3,
+          "skills": [
+            {
+              "name": "Frontend",
+              "level": "Advanced"
+            },
+            {
+              "name": "Figma",
+              "level": "Intermediate"
+            },
+            {
+              "name": "React Native",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Computer Vision",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Next.js",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "IoT",
+            "EdTech",
+            "BioTech"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings"
+          ],
+          "pastProjects": [
+            {
+              "title": "Urban Heat Island Geospatial Map",
+              "description": "Developed scalable architecture for urban heat island geospatial map utilizing Frontend and Figma.",
+              "category": "Smart Cities",
+              "skills": [
+                "Geospatial Data",
+                "GIS",
+                "Python"
+              ]
+            },
+            {
+              "title": "Campus Solid Waste Classification",
+              "description": "Collaborated in a sprint team to deliver campus solid waste classification with focus on end-to-end integration.",
+              "category": "Sustainability",
+              "skills": [
+                "Computer Vision",
+                "Deep Learning",
+                "Sustainability"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "UI/UX Designer",
+            "NLP Researcher"
+          ]
+        },
+        "overallScore": 61,
+        "assignedRole": "UI/UX Designer",
+        "breakdown": {
+          "skillMatch": 29,
+          "interestAlignment": 70,
+          "availability": 90,
+          "experience": 90,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 85
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision"
+        ],
+        "matchedPreferredSkills": [
+          "Frontend",
+          "UI/UX"
+        ],
+        "matchedInterests": [
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Urban Heat Island Geospatial Map",
+          "Campus Solid Waste Classification"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-049",
+          "name": "Rohit Desai",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=250",
+          "department": "Artificial Intelligence & Machine Learning",
+          "year": 2,
+          "bio": "Year 2 Artificial Intelligence & Machine Learning student specializing in Healthcare AI Specialist. Passionate about building impactful projects in Healthcare and Smart Cities and Sustainability.",
+          "experienceLevel": "Beginner",
+          "collaborationStyle": "Structured & Methodical",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Machine Learning",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Robotics",
+              "level": "Intermediate"
+            },
+            {
+              "name": "ROS",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "Healthcare",
+            "Smart Cities",
+            "Sustainability"
+          ],
+          "availability": [
+            "Weekends",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Student Mental Health Companion",
+              "description": "Developed scalable architecture for student mental health companion utilizing Machine Learning and Robotics.",
+              "category": "Healthcare",
+              "skills": [
+                "Natural Language Processing",
+                "React",
+                "UI/UX"
+              ]
+            },
+            {
+              "title": "Campus Solid Waste Classification",
+              "description": "Collaborated in a sprint team to deliver campus solid waste classification with focus on end-to-end integration.",
+              "category": "Sustainability",
+              "skills": [
+                "Computer Vision",
+                "Deep Learning",
+                "Sustainability"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "Healthcare AI Specialist",
+            "Backend Architect"
+          ]
+        },
+        "overallScore": 60,
+        "assignedRole": "Healthcare AI Specialist",
+        "breakdown": {
+          "skillMatch": 16,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 50,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 90
+        },
+        "matchedRequiredSkills": [
+          "Machine Learning"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Student Mental Health Companion",
+          "Campus Solid Waste Classification"
+        ]
+      }
+    ],
+    "teamScore": 76,
+    "breakdown": {
+      "skillCoverage": 67,
+      "complementarity": 85,
+      "candidateQuality": 61,
+      "interestAlignment": 85,
+      "availability": 95,
+      "experienceRelevance": 80
+    },
+    "teamHealth": {
+      "overallHealth": "Critical Gaps",
+      "healthScore": 10,
+      "coveredSkills": [
+        {
+          "skill": "Frontend",
+          "status": "strong",
+          "coveragePercent": 85,
+          "coveredBy": [
+            {
+              "studentId": "student-204",
+              "studentName": "Neha Pillai",
+              "level": "Advanced"
+            }
+          ]
+        }
+      ],
+      "weakSkills": [
+        {
+          "skill": "Computer Vision",
+          "status": "weak",
+          "coveragePercent": 65,
+          "coveredBy": [
+            {
+              "studentId": "student-204",
+              "studentName": "Neha Pillai",
+              "level": "Intermediate"
+            }
+          ]
+        },
+        {
+          "skill": "Machine Learning",
+          "status": "weak",
+          "coveragePercent": 65,
+          "coveredBy": [
+            {
+              "studentId": "student-049",
+              "studentName": "Rohit Desai",
+              "level": "Intermediate"
+            }
+          ]
+        },
+        {
+          "skill": "Backend",
+          "status": "weak",
+          "coveragePercent": 0,
+          "coveredBy": []
+        },
+        {
+          "skill": "UI/UX",
+          "status": "weak",
+          "coveragePercent": 65,
+          "coveredBy": [
+            {
+              "studentId": "student-204",
+              "studentName": "Neha Pillai",
+              "level": "Intermediate"
+            }
+          ]
+        }
+      ],
+      "missingSkills": [
+        {
+          "skill": "Sustainability",
+          "status": "missing",
+          "coveragePercent": 0,
+          "coveredBy": []
+        }
+      ],
+      "redundantSkills": [],
+      "availabilityOverlapPercent": 82,
+      "criticalGapDetected": "Sustainability"
+    },
+    "createdAt": "2026-08-25T08:29:13.109Z",
+    "id": "proj_1787646553110_bjm6o",
+    "updatedAt": "2026-08-25T08:29:13.110Z"
+  },
+  {
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability",
+        "Smart Cities"
+      ],
+      "requiredSkills": [
+        "Computer Vision",
+        "Machine Learning",
+        "Sustainability"
+      ],
+      "preferredSkills": [
+        "Frontend",
+        "Backend",
+        "UI/UX"
+      ],
+      "roles": [
+        "ML Engineer",
+        "Full Stack Developer",
+        "UI/UX Designer",
+        "Domain Specialist"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [
+        "Project-level execution experience",
+        "Collaboration track record"
+      ],
+      "availabilityRequirement": "Flexible (Any Sprint Schedule)",
+      "normalizedSkills": [
+        {
+          "original": "Computer Vision",
+          "canonical": "Computer Vision",
+          "confidence": 1
+        },
+        {
+          "original": "Machine Learning",
+          "canonical": "Machine Learning",
+          "confidence": 1
+        },
+        {
+          "original": "Sustainability",
+          "canonical": "Sustainability",
+          "confidence": 1
+        }
+      ],
+      "isFallback": true
+    },
+    "team": [
+      {
+        "student": {
+          "id": "student-410",
+          "name": "Vikramaditya Jindal",
+          "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=250",
+          "department": "Data Science & Analytics",
+          "year": 3,
+          "bio": "Year 3 Data Science & Analytics student specializing in Cloud & DevOps Engineer. Passionate about building impactful projects in EdTech and IoT and E-Commerce.",
+          "experienceLevel": "Expert",
+          "collaborationStyle": "Creative / Exploratory",
+          "preferredTeamSize": 5,
+          "skills": [
+            {
+              "name": "Backend",
+              "level": "Expert"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Advanced"
+            },
+            {
+              "name": "Sustainability",
+              "level": "Intermediate"
+            },
+            {
+              "name": "MongoDB",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Docker",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "EdTech",
+            "IoT",
+            "E-Commerce"
+          ],
+          "availability": [
+            "Evenings",
+            "Weekends"
+          ],
+          "pastProjects": [
+            {
+              "title": "Autonomous Drone Path Planner",
+              "description": "Developed scalable architecture for autonomous drone path planner utilizing Backend and Machine Learning.",
+              "category": "Robotics",
+              "skills": [
+                "Robotics",
+                "Python",
+                "IoT"
+              ]
+            },
+            {
+              "title": "Student Mental Health Companion",
+              "description": "Collaborated in a sprint team to deliver student mental health companion with focus on end-to-end integration.",
+              "category": "Healthcare",
+              "skills": [
+                "Natural Language Processing",
+                "React",
+                "UI/UX"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "Cloud & DevOps Engineer",
+            "Data Scientist"
+          ]
+        },
+        "overallScore": 64,
+        "assignedRole": "Cloud & DevOps Engineer",
+        "breakdown": {
+          "skillMatch": 46,
+          "interestAlignment": 70,
+          "availability": 90,
+          "experience": 100,
+          "pastProjectRelevance": 45,
+          "collaborationFit": 75
+        },
+        "matchedRequiredSkills": [
+          "Machine Learning",
+          "Sustainability"
+        ],
+        "matchedPreferredSkills": [
+          "Backend"
+        ],
+        "matchedInterests": [
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Autonomous Drone Path Planner"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-204",
+          "name": "Neha Pillai",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science & Engineering",
+          "year": 1,
+          "bio": "Year 1 Computer Science & Engineering student specializing in UI/UX Designer. Passionate about building impactful projects in IoT and EdTech and BioTech.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 3,
+          "skills": [
+            {
+              "name": "Frontend",
+              "level": "Advanced"
+            },
+            {
+              "name": "Figma",
+              "level": "Intermediate"
+            },
+            {
+              "name": "React Native",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Computer Vision",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Next.js",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "IoT",
+            "EdTech",
+            "BioTech"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings"
+          ],
+          "pastProjects": [
+            {
+              "title": "Urban Heat Island Geospatial Map",
+              "description": "Developed scalable architecture for urban heat island geospatial map utilizing Frontend and Figma.",
+              "category": "Smart Cities",
+              "skills": [
+                "Geospatial Data",
+                "GIS",
+                "Python"
+              ]
+            },
+            {
+              "title": "Campus Solid Waste Classification",
+              "description": "Collaborated in a sprint team to deliver campus solid waste classification with focus on end-to-end integration.",
+              "category": "Sustainability",
+              "skills": [
+                "Computer Vision",
+                "Deep Learning",
+                "Sustainability"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "UI/UX Designer",
+            "NLP Researcher"
+          ]
+        },
+        "overallScore": 61,
+        "assignedRole": "UI/UX Designer",
+        "breakdown": {
+          "skillMatch": 29,
+          "interestAlignment": 70,
+          "availability": 90,
+          "experience": 90,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 85
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision"
+        ],
+        "matchedPreferredSkills": [
+          "Frontend",
+          "UI/UX"
+        ],
+        "matchedInterests": [
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Urban Heat Island Geospatial Map",
+          "Campus Solid Waste Classification"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-049",
+          "name": "Rohit Desai",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=250",
+          "department": "Artificial Intelligence & Machine Learning",
+          "year": 2,
+          "bio": "Year 2 Artificial Intelligence & Machine Learning student specializing in Healthcare AI Specialist. Passionate about building impactful projects in Healthcare and Smart Cities and Sustainability.",
+          "experienceLevel": "Beginner",
+          "collaborationStyle": "Structured & Methodical",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Machine Learning",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Robotics",
+              "level": "Intermediate"
+            },
+            {
+              "name": "ROS",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "Healthcare",
+            "Smart Cities",
+            "Sustainability"
+          ],
+          "availability": [
+            "Weekends",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Student Mental Health Companion",
+              "description": "Developed scalable architecture for student mental health companion utilizing Machine Learning and Robotics.",
+              "category": "Healthcare",
+              "skills": [
+                "Natural Language Processing",
+                "React",
+                "UI/UX"
+              ]
+            },
+            {
+              "title": "Campus Solid Waste Classification",
+              "description": "Collaborated in a sprint team to deliver campus solid waste classification with focus on end-to-end integration.",
+              "category": "Sustainability",
+              "skills": [
+                "Computer Vision",
+                "Deep Learning",
+                "Sustainability"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "Healthcare AI Specialist",
+            "Backend Architect"
+          ]
+        },
+        "overallScore": 60,
+        "assignedRole": "Healthcare AI Specialist",
+        "breakdown": {
+          "skillMatch": 16,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 50,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 90
+        },
+        "matchedRequiredSkills": [
+          "Machine Learning"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Student Mental Health Companion",
+          "Campus Solid Waste Classification"
+        ]
+      }
+    ],
+    "teamScore": 91,
+    "breakdown": {
+      "skillCoverage": 100,
+      "complementarity": 100,
+      "candidateQuality": 62,
+      "interestAlignment": 80,
+      "availability": 93,
+      "experienceRelevance": 78
+    },
+    "teamHealth": {
+      "overallHealth": "Needs Attention",
+      "healthScore": 43,
+      "coveredSkills": [
+        {
+          "skill": "Machine Learning",
+          "status": "strong",
+          "coveragePercent": 85,
+          "coveredBy": [
+            {
+              "studentId": "student-410",
+              "studentName": "Vikramaditya Jindal",
+              "level": "Advanced"
+            },
+            {
+              "studentId": "student-049",
+              "studentName": "Rohit Desai",
+              "level": "Intermediate"
+            }
+          ]
+        },
+        {
+          "skill": "Frontend",
+          "status": "strong",
+          "coveragePercent": 85,
+          "coveredBy": [
+            {
+              "studentId": "student-204",
+              "studentName": "Neha Pillai",
+              "level": "Advanced"
+            }
+          ]
+        },
+        {
+          "skill": "Backend",
+          "status": "strong",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-410",
+              "studentName": "Vikramaditya Jindal",
+              "level": "Expert"
+            }
+          ]
+        }
+      ],
+      "weakSkills": [
+        {
+          "skill": "Computer Vision",
+          "status": "weak",
+          "coveragePercent": 65,
+          "coveredBy": [
+            {
+              "studentId": "student-204",
+              "studentName": "Neha Pillai",
+              "level": "Intermediate"
+            }
+          ]
+        },
+        {
+          "skill": "Sustainability",
+          "status": "weak",
+          "coveragePercent": 65,
+          "coveredBy": [
+            {
+              "studentId": "student-410",
+              "studentName": "Vikramaditya Jindal",
+              "level": "Intermediate"
+            }
+          ]
+        },
+        {
+          "skill": "UI/UX",
+          "status": "weak",
+          "coveragePercent": 65,
+          "coveredBy": [
+            {
+              "studentId": "student-204",
+              "studentName": "Neha Pillai",
+              "level": "Intermediate"
+            }
+          ]
+        }
+      ],
+      "missingSkills": [],
+      "redundantSkills": [],
+      "availabilityOverlapPercent": 82,
+      "criticalGapDetected": "Computer Vision"
+    },
+    "createdAt": "2026-08-25T08:27:29.144Z",
+    "id": "proj_1787646449144_fcau9",
+    "updatedAt": "2026-08-25T08:27:29.144Z"
+  },
+  {
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability",
+        "Smart Cities"
+      ],
+      "requiredSkills": [
+        "Computer Vision",
+        "Machine Learning",
+        "Sustainability"
+      ],
+      "preferredSkills": [
+        "Frontend",
+        "Backend",
+        "UI/UX"
+      ],
+      "roles": [
+        "ML Engineer",
+        "Full Stack Developer",
+        "UI/UX Designer",
+        "Domain Specialist"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [
+        "Project-level execution experience",
+        "Collaboration track record"
+      ],
+      "availabilityRequirement": "none",
+      "normalizedSkills": [
+        {
+          "original": "Computer Vision",
+          "canonical": "Computer Vision",
+          "confidence": 1
+        },
+        {
+          "original": "Machine Learning",
+          "canonical": "Machine Learning",
+          "confidence": 1
+        },
+        {
+          "original": "Sustainability",
+          "canonical": "Sustainability",
+          "confidence": 1
+        }
+      ],
+      "isFallback": true
+    },
+    "team": [
+      {
+        "student": {
+          "id": "student-415",
+          "name": "Dev Naidu",
+          "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&q=80&w=250",
+          "department": "Biotechnology & Bioinformatics",
+          "year": 4,
+          "bio": "Year 4 Biotechnology & Bioinformatics student specializing in Computer Vision Lead. Passionate about building impactful projects in Smart Cities and Healthcare and AgriTech.",
+          "experienceLevel": "Expert",
+          "collaborationStyle": "Balanced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Machine Learning",
+              "level": "Expert"
+            },
+            {
+              "name": "IoT",
+              "level": "Advanced"
+            },
+            {
+              "name": "Frontend",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Design Systems",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Python",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "Smart Cities",
+            "Healthcare",
+            "AgriTech"
+          ],
+          "availability": [
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Peer-to-Peer Notes & Resource Sharing",
+              "description": "Developed scalable architecture for peer-to-peer notes & resource sharing utilizing Machine Learning and IoT.",
+              "category": "EdTech",
+              "skills": [
+                "Full Stack",
+                "Next.js",
+                "PostgreSQL"
+              ]
+            },
+            {
+              "title": "Student Mental Health Companion",
+              "description": "Collaborated in a sprint team to deliver student mental health companion with focus on end-to-end integration.",
+              "category": "Healthcare",
+              "skills": [
+                "Natural Language Processing",
+                "React",
+                "UI/UX"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "Computer Vision Lead",
+            "Backend Architect"
+          ]
+        },
+        "overallScore": 61,
+        "assignedRole": "Computer Vision Lead",
+        "breakdown": {
+          "skillMatch": 30,
+          "interestAlignment": 70,
+          "availability": 100,
+          "experience": 100,
+          "pastProjectRelevance": 45,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Machine Learning"
+        ],
+        "matchedPreferredSkills": [
+          "Frontend"
+        ],
+        "matchedInterests": [
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Peer-to-Peer Notes & Resource Sharing"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-310",
+          "name": "Vikramaditya Amin",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=250",
+          "department": "Economics & Quantitative Finance",
+          "year": 3,
+          "bio": "Year 3 Economics & Quantitative Finance student specializing in Frontend Lead. Passionate about building impactful projects in EdTech and IoT and E-Commerce.",
+          "experienceLevel": "Expert",
+          "collaborationStyle": "Creative / Exploratory",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Frontend",
+              "level": "Expert"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Advanced"
+            },
+            {
+              "name": "Sustainability",
+              "level": "Intermediate"
+            },
+            {
+              "name": "MongoDB",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Docker",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "EdTech",
+            "IoT",
+            "E-Commerce"
+          ],
+          "availability": [
+            "Evenings",
+            "Weekends"
+          ],
+          "pastProjects": [
+            {
+              "title": "Peer-to-Peer Notes & Resource Sharing",
+              "description": "Developed scalable architecture for peer-to-peer notes & resource sharing utilizing Frontend and Machine Learning.",
+              "category": "EdTech",
+              "skills": [
+                "Full Stack",
+                "Next.js",
+                "PostgreSQL"
+              ]
+            },
+            {
+              "title": "Student Mental Health Companion",
+              "description": "Collaborated in a sprint team to deliver student mental health companion with focus on end-to-end integration.",
+              "category": "Healthcare",
+              "skills": [
+                "Natural Language Processing",
+                "React",
+                "UI/UX"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "Frontend Lead",
+            "Cloud & DevOps Engineer"
+          ]
+        },
+        "overallScore": 60,
+        "assignedRole": "Frontend Lead",
+        "breakdown": {
+          "skillMatch": 46,
+          "interestAlignment": 70,
+          "availability": 60,
+          "experience": 100,
+          "pastProjectRelevance": 45,
+          "collaborationFit": 90
+        },
+        "matchedRequiredSkills": [
+          "Machine Learning",
+          "Sustainability"
+        ],
+        "matchedPreferredSkills": [
+          "Frontend"
+        ],
+        "matchedInterests": [
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Peer-to-Peer Notes & Resource Sharing"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-029",
+          "name": "Chetan Dhillon",
+          "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=250",
+          "department": "Electrical & Electronics Engineering",
+          "year": 2,
+          "bio": "Year 2 Electrical & Electronics Engineering student specializing in Sustainability Lead. Passionate about building impactful projects in Healthcare and Smart Cities and Sustainability.",
+          "experienceLevel": "Beginner",
+          "collaborationStyle": "Structured & Methodical",
+          "preferredTeamSize": 5,
+          "skills": [
+            {
+              "name": "Sustainability",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Robotics",
+              "level": "Intermediate"
+            },
+            {
+              "name": "PyTorch",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Embedded Systems",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Solidity",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "Healthcare",
+            "Smart Cities",
+            "Sustainability"
+          ],
+          "availability": [
+            "Weekends",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Voice-Assisted Form Filler for Seniors",
+              "description": "Developed scalable architecture for voice-assisted form filler for seniors utilizing Sustainability and Robotics.",
+              "category": "Healthcare",
+              "skills": [
+                "Natural Language Processing",
+                "React",
+                "UI/UX"
+              ]
+            },
+            {
+              "title": "Campus Solid Waste Classification",
+              "description": "Collaborated in a sprint team to deliver campus solid waste classification with focus on end-to-end integration.",
+              "category": "Sustainability",
+              "skills": [
+                "Computer Vision",
+                "Deep Learning",
+                "Sustainability"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "Sustainability Lead",
+            "Robotics Engineer"
+          ]
+        },
+        "overallScore": 59,
+        "assignedRole": "Sustainability Lead",
+        "breakdown": {
+          "skillMatch": 16,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 50,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 75
+        },
+        "matchedRequiredSkills": [
+          "Sustainability"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Voice-Assisted Form Filler for Seniors",
+          "Campus Solid Waste Classification"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-175",
+          "name": "Mihir Sethi",
+          "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&q=80&w=250",
+          "department": "Biotechnology & Bioinformatics",
+          "year": 4,
+          "bio": "Year 4 Biotechnology & Bioinformatics student specializing in Healthcare AI Specialist. Passionate about building impactful projects in Smart Cities and Healthcare and AgriTech.",
+          "experienceLevel": "Expert",
+          "collaborationStyle": "Balanced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Machine Learning",
+              "level": "Expert"
+            },
+            {
+              "name": "IoT",
+              "level": "Advanced"
+            },
+            {
+              "name": "Geospatial Data",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Flutter",
+              "level": "Intermediate"
+            },
+            {
+              "name": "FinTech",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "Smart Cities",
+            "Healthcare",
+            "AgriTech"
+          ],
+          "availability": [
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Peer-to-Peer Notes & Resource Sharing",
+              "description": "Developed scalable architecture for peer-to-peer notes & resource sharing utilizing Machine Learning and IoT.",
+              "category": "EdTech",
+              "skills": [
+                "Full Stack",
+                "Next.js",
+                "PostgreSQL"
+              ]
+            },
+            {
+              "title": "Student Mental Health Companion",
+              "description": "Collaborated in a sprint team to deliver student mental health companion with focus on end-to-end integration.",
+              "category": "Healthcare",
+              "skills": [
+                "Natural Language Processing",
+                "React",
+                "UI/UX"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "Healthcare AI Specialist",
+            "Backend Architect"
+          ]
+        },
+        "overallScore": 59,
+        "assignedRole": "Healthcare AI Specialist",
+        "breakdown": {
+          "skillMatch": 25,
+          "interestAlignment": 70,
+          "availability": 100,
+          "experience": 100,
+          "pastProjectRelevance": 45,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Machine Learning"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Peer-to-Peer Notes & Resource Sharing"
+        ]
+      }
+    ],
+    "teamScore": 74,
+    "breakdown": {
+      "skillCoverage": 67,
+      "complementarity": 85,
+      "candidateQuality": 60,
+      "interestAlignment": 78,
+      "availability": 90,
+      "experienceRelevance": 72
+    },
+    "teamHealth": {
+      "overallHealth": "Critical Gaps",
+      "healthScore": 33,
+      "coveredSkills": [
+        {
+          "skill": "Machine Learning",
+          "status": "strong",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-415",
+              "studentName": "Dev Naidu",
+              "level": "Expert"
+            },
+            {
+              "studentId": "student-310",
+              "studentName": "Vikramaditya Amin",
+              "level": "Advanced"
+            },
+            {
+              "studentId": "student-175",
+              "studentName": "Mihir Sethi",
+              "level": "Expert"
+            }
+          ]
+        },
+        {
+          "skill": "Frontend",
+          "status": "strong",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-415",
+              "studentName": "Dev Naidu",
+              "level": "Intermediate"
+            },
+            {
+              "studentId": "student-310",
+              "studentName": "Vikramaditya Amin",
+              "level": "Expert"
+            }
+          ]
+        }
+      ],
+      "weakSkills": [
+        {
+          "skill": "Sustainability",
+          "status": "weak",
+          "coveragePercent": 65,
+          "coveredBy": [
+            {
+              "studentId": "student-310",
+              "studentName": "Vikramaditya Amin",
+              "level": "Intermediate"
+            },
+            {
+              "studentId": "student-029",
+              "studentName": "Chetan Dhillon",
+              "level": "Intermediate"
+            }
+          ]
+        },
+        {
+          "skill": "Backend",
+          "status": "weak",
+          "coveragePercent": 0,
+          "coveredBy": []
+        },
+        {
+          "skill": "UI/UX",
+          "status": "weak",
+          "coveragePercent": 0,
+          "coveredBy": []
+        }
+      ],
+      "missingSkills": [
+        {
+          "skill": "Computer Vision",
+          "status": "missing",
+          "coveragePercent": 0,
+          "coveredBy": []
+        }
+      ],
+      "redundantSkills": [
+        {
+          "skill": "Machine Learning",
+          "status": "redundant",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-415",
+              "studentName": "Dev Naidu",
+              "level": "Expert"
+            },
+            {
+              "studentId": "student-310",
+              "studentName": "Vikramaditya Amin",
+              "level": "Advanced"
+            },
+            {
+              "studentId": "student-175",
+              "studentName": "Mihir Sethi",
+              "level": "Expert"
+            }
+          ]
+        }
+      ],
+      "availabilityOverlapPercent": 82,
+      "criticalGapDetected": "Computer Vision"
+    },
+    "explanation": {
+      "teamSummary": "This 4-member team was formulated to maximize complementary skill coverage for AI / Sustainability. It balances technical execution with domain requirements.",
+      "members": [
+        {
+          "profileId": "student-415",
+          "role": "Computer Vision Lead",
+          "reason": "Dev Naidu provides vital Computer Vision Lead execution capabilities, covering key project requirements.",
+          "skillsFilled": [
+            "Machine Learning",
+            "Frontend"
+          ],
+          "evidence": [
+            "Completed \"Peer-to-Peer Notes & Resource Sharing\" in EdTech",
+            "Expert proficiency with Machine Learning, IoT, Frontend"
+          ]
+        },
+        {
+          "profileId": "student-310",
+          "role": "Frontend Lead",
+          "reason": "Vikramaditya Amin provides vital Frontend Lead execution capabilities, covering key project requirements.",
+          "skillsFilled": [
+            "Machine Learning",
+            "Sustainability",
+            "Frontend"
+          ],
+          "evidence": [
+            "Completed \"Peer-to-Peer Notes & Resource Sharing\" in EdTech",
+            "Expert proficiency with Frontend, Machine Learning, Sustainability"
+          ]
+        },
+        {
+          "profileId": "student-029",
+          "role": "Sustainability Lead",
+          "reason": "Chetan Dhillon provides vital Sustainability Lead execution capabilities, covering key project requirements.",
+          "skillsFilled": [
+            "Sustainability"
+          ],
+          "evidence": [
+            "Completed \"Voice-Assisted Form Filler for Seniors\" in Healthcare",
+            "Beginner proficiency with Sustainability, Robotics, PyTorch"
+          ]
+        },
+        {
+          "profileId": "student-175",
+          "role": "Healthcare AI Specialist",
+          "reason": "Mihir Sethi provides vital Healthcare AI Specialist execution capabilities, covering key project requirements.",
+          "skillsFilled": [
+            "Machine Learning"
+          ],
+          "evidence": [
+            "Completed \"Peer-to-Peer Notes & Resource Sharing\" in EdTech",
+            "Expert proficiency with Machine Learning, IoT, Geospatial Data"
+          ]
+        }
+      ],
+      "complementarityExplanation": "Each member fulfills distinct roles (Computer Vision Lead, Frontend Lead, Sustainability Lead, Healthcare AI Specialist) minimizing redundancy and providing complete coverage across required capabilities.",
+      "remainingGaps": []
+    },
+    "createdAt": "2026-08-25T08:22:54.696Z",
+    "id": "proj_1787646174696_vwu54",
+    "updatedAt": "2026-08-25T08:22:54.696Z"
+  },
+  {
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability",
+        "Smart Cities"
+      ],
+      "requiredSkills": [
+        "Computer Vision",
+        "Machine Learning",
+        "Sustainability"
+      ],
+      "preferredSkills": [
+        "Frontend",
+        "Backend",
+        "UI/UX"
+      ],
+      "roles": [
+        "ML Engineer",
+        "Full Stack Developer",
+        "UI/UX Designer",
+        "Domain Specialist"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [
+        "Project-level execution experience",
+        "Collaboration track record"
+      ],
+      "availabilityRequirement": "none",
+      "normalizedSkills": [
+        {
+          "original": "Computer Vision",
+          "canonical": "Computer Vision",
+          "confidence": 1
+        },
+        {
+          "original": "Machine Learning",
+          "canonical": "Machine Learning",
+          "confidence": 1
+        },
+        {
+          "original": "Sustainability",
+          "canonical": "Sustainability",
+          "confidence": 1
+        }
+      ],
+      "isFallback": true
+    },
+    "team": [
+      {
+        "student": {
+          "id": "student-415",
+          "name": "Dev Naidu",
+          "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&q=80&w=250",
+          "department": "Biotechnology & Bioinformatics",
+          "year": 4,
+          "bio": "Year 4 Biotechnology & Bioinformatics student specializing in Computer Vision Lead. Passionate about building impactful projects in Smart Cities and Healthcare and AgriTech.",
+          "experienceLevel": "Expert",
+          "collaborationStyle": "Balanced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Machine Learning",
+              "level": "Expert"
+            },
+            {
+              "name": "IoT",
+              "level": "Advanced"
+            },
+            {
+              "name": "Frontend",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Design Systems",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Python",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "Smart Cities",
+            "Healthcare",
+            "AgriTech"
+          ],
+          "availability": [
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Peer-to-Peer Notes & Resource Sharing",
+              "description": "Developed scalable architecture for peer-to-peer notes & resource sharing utilizing Machine Learning and IoT.",
+              "category": "EdTech",
+              "skills": [
+                "Full Stack",
+                "Next.js",
+                "PostgreSQL"
+              ]
+            },
+            {
+              "title": "Student Mental Health Companion",
+              "description": "Collaborated in a sprint team to deliver student mental health companion with focus on end-to-end integration.",
+              "category": "Healthcare",
+              "skills": [
+                "Natural Language Processing",
+                "React",
+                "UI/UX"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "Computer Vision Lead",
+            "Backend Architect"
+          ]
+        },
+        "overallScore": 61,
+        "assignedRole": "Computer Vision Lead",
+        "breakdown": {
+          "skillMatch": 30,
+          "interestAlignment": 70,
+          "availability": 100,
+          "experience": 100,
+          "pastProjectRelevance": 45,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Machine Learning"
+        ],
+        "matchedPreferredSkills": [
+          "Frontend"
+        ],
+        "matchedInterests": [
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Peer-to-Peer Notes & Resource Sharing"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-310",
+          "name": "Vikramaditya Amin",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=250",
+          "department": "Economics & Quantitative Finance",
+          "year": 3,
+          "bio": "Year 3 Economics & Quantitative Finance student specializing in Frontend Lead. Passionate about building impactful projects in EdTech and IoT and E-Commerce.",
+          "experienceLevel": "Expert",
+          "collaborationStyle": "Creative / Exploratory",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Frontend",
+              "level": "Expert"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Advanced"
+            },
+            {
+              "name": "Sustainability",
+              "level": "Intermediate"
+            },
+            {
+              "name": "MongoDB",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Docker",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "EdTech",
+            "IoT",
+            "E-Commerce"
+          ],
+          "availability": [
+            "Evenings",
+            "Weekends"
+          ],
+          "pastProjects": [
+            {
+              "title": "Peer-to-Peer Notes & Resource Sharing",
+              "description": "Developed scalable architecture for peer-to-peer notes & resource sharing utilizing Frontend and Machine Learning.",
+              "category": "EdTech",
+              "skills": [
+                "Full Stack",
+                "Next.js",
+                "PostgreSQL"
+              ]
+            },
+            {
+              "title": "Student Mental Health Companion",
+              "description": "Collaborated in a sprint team to deliver student mental health companion with focus on end-to-end integration.",
+              "category": "Healthcare",
+              "skills": [
+                "Natural Language Processing",
+                "React",
+                "UI/UX"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "Frontend Lead",
+            "Cloud & DevOps Engineer"
+          ]
+        },
+        "overallScore": 60,
+        "assignedRole": "Frontend Lead",
+        "breakdown": {
+          "skillMatch": 46,
+          "interestAlignment": 70,
+          "availability": 60,
+          "experience": 100,
+          "pastProjectRelevance": 45,
+          "collaborationFit": 90
+        },
+        "matchedRequiredSkills": [
+          "Machine Learning",
+          "Sustainability"
+        ],
+        "matchedPreferredSkills": [
+          "Frontend"
+        ],
+        "matchedInterests": [
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Peer-to-Peer Notes & Resource Sharing"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-029",
+          "name": "Chetan Dhillon",
+          "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=250",
+          "department": "Electrical & Electronics Engineering",
+          "year": 2,
+          "bio": "Year 2 Electrical & Electronics Engineering student specializing in Sustainability Lead. Passionate about building impactful projects in Healthcare and Smart Cities and Sustainability.",
+          "experienceLevel": "Beginner",
+          "collaborationStyle": "Structured & Methodical",
+          "preferredTeamSize": 5,
+          "skills": [
+            {
+              "name": "Sustainability",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Robotics",
+              "level": "Intermediate"
+            },
+            {
+              "name": "PyTorch",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Embedded Systems",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Solidity",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "Healthcare",
+            "Smart Cities",
+            "Sustainability"
+          ],
+          "availability": [
+            "Weekends",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Voice-Assisted Form Filler for Seniors",
+              "description": "Developed scalable architecture for voice-assisted form filler for seniors utilizing Sustainability and Robotics.",
+              "category": "Healthcare",
+              "skills": [
+                "Natural Language Processing",
+                "React",
+                "UI/UX"
+              ]
+            },
+            {
+              "title": "Campus Solid Waste Classification",
+              "description": "Collaborated in a sprint team to deliver campus solid waste classification with focus on end-to-end integration.",
+              "category": "Sustainability",
+              "skills": [
+                "Computer Vision",
+                "Deep Learning",
+                "Sustainability"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "Sustainability Lead",
+            "Robotics Engineer"
+          ]
+        },
+        "overallScore": 59,
+        "assignedRole": "Sustainability Lead",
+        "breakdown": {
+          "skillMatch": 16,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 50,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 75
+        },
+        "matchedRequiredSkills": [
+          "Sustainability"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Voice-Assisted Form Filler for Seniors",
+          "Campus Solid Waste Classification"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-175",
+          "name": "Mihir Sethi",
+          "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&q=80&w=250",
+          "department": "Biotechnology & Bioinformatics",
+          "year": 4,
+          "bio": "Year 4 Biotechnology & Bioinformatics student specializing in Healthcare AI Specialist. Passionate about building impactful projects in Smart Cities and Healthcare and AgriTech.",
+          "experienceLevel": "Expert",
+          "collaborationStyle": "Balanced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Machine Learning",
+              "level": "Expert"
+            },
+            {
+              "name": "IoT",
+              "level": "Advanced"
+            },
+            {
+              "name": "Geospatial Data",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Flutter",
+              "level": "Intermediate"
+            },
+            {
+              "name": "FinTech",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "Smart Cities",
+            "Healthcare",
+            "AgriTech"
+          ],
+          "availability": [
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Peer-to-Peer Notes & Resource Sharing",
+              "description": "Developed scalable architecture for peer-to-peer notes & resource sharing utilizing Machine Learning and IoT.",
+              "category": "EdTech",
+              "skills": [
+                "Full Stack",
+                "Next.js",
+                "PostgreSQL"
+              ]
+            },
+            {
+              "title": "Student Mental Health Companion",
+              "description": "Collaborated in a sprint team to deliver student mental health companion with focus on end-to-end integration.",
+              "category": "Healthcare",
+              "skills": [
+                "Natural Language Processing",
+                "React",
+                "UI/UX"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "Healthcare AI Specialist",
+            "Backend Architect"
+          ]
+        },
+        "overallScore": 59,
+        "assignedRole": "Healthcare AI Specialist",
+        "breakdown": {
+          "skillMatch": 25,
+          "interestAlignment": 70,
+          "availability": 100,
+          "experience": 100,
+          "pastProjectRelevance": 45,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Machine Learning"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Peer-to-Peer Notes & Resource Sharing"
+        ]
+      }
+    ],
+    "teamScore": 74,
+    "breakdown": {
+      "skillCoverage": 67,
+      "complementarity": 85,
+      "candidateQuality": 60,
+      "interestAlignment": 78,
+      "availability": 90,
+      "experienceRelevance": 72
+    },
+    "teamHealth": {
+      "overallHealth": "Critical Gaps",
+      "healthScore": 33,
+      "coveredSkills": [
+        {
+          "skill": "Machine Learning",
+          "status": "strong",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-415",
+              "studentName": "Dev Naidu",
+              "level": "Expert"
+            },
+            {
+              "studentId": "student-310",
+              "studentName": "Vikramaditya Amin",
+              "level": "Advanced"
+            },
+            {
+              "studentId": "student-175",
+              "studentName": "Mihir Sethi",
+              "level": "Expert"
+            }
+          ]
+        },
+        {
+          "skill": "Frontend",
+          "status": "strong",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-415",
+              "studentName": "Dev Naidu",
+              "level": "Intermediate"
+            },
+            {
+              "studentId": "student-310",
+              "studentName": "Vikramaditya Amin",
+              "level": "Expert"
+            }
+          ]
+        }
+      ],
+      "weakSkills": [
+        {
+          "skill": "Sustainability",
+          "status": "weak",
+          "coveragePercent": 65,
+          "coveredBy": [
+            {
+              "studentId": "student-310",
+              "studentName": "Vikramaditya Amin",
+              "level": "Intermediate"
+            },
+            {
+              "studentId": "student-029",
+              "studentName": "Chetan Dhillon",
+              "level": "Intermediate"
+            }
+          ]
+        },
+        {
+          "skill": "Backend",
+          "status": "weak",
+          "coveragePercent": 0,
+          "coveredBy": []
+        },
+        {
+          "skill": "UI/UX",
+          "status": "weak",
+          "coveragePercent": 0,
+          "coveredBy": []
+        }
+      ],
+      "missingSkills": [
+        {
+          "skill": "Computer Vision",
+          "status": "missing",
+          "coveragePercent": 0,
+          "coveredBy": []
+        }
+      ],
+      "redundantSkills": [
+        {
+          "skill": "Machine Learning",
+          "status": "redundant",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-415",
+              "studentName": "Dev Naidu",
+              "level": "Expert"
+            },
+            {
+              "studentId": "student-310",
+              "studentName": "Vikramaditya Amin",
+              "level": "Advanced"
+            },
+            {
+              "studentId": "student-175",
+              "studentName": "Mihir Sethi",
+              "level": "Expert"
+            }
+          ]
+        }
+      ],
+      "availabilityOverlapPercent": 82,
+      "criticalGapDetected": "Computer Vision"
+    },
+    "explanation": {
+      "teamSummary": "This 4-member team was formulated to maximize complementary skill coverage for AI / Sustainability. It balances technical execution with domain requirements.",
+      "members": [
+        {
+          "profileId": "student-415",
+          "role": "Computer Vision Lead",
+          "reason": "Dev Naidu provides vital Computer Vision Lead execution capabilities, covering key project requirements.",
+          "skillsFilled": [
+            "Machine Learning",
+            "Frontend"
+          ],
+          "evidence": [
+            "Completed \"Peer-to-Peer Notes & Resource Sharing\" in EdTech",
+            "Expert proficiency with Machine Learning, IoT, Frontend"
+          ]
+        },
+        {
+          "profileId": "student-310",
+          "role": "Frontend Lead",
+          "reason": "Vikramaditya Amin provides vital Frontend Lead execution capabilities, covering key project requirements.",
+          "skillsFilled": [
+            "Machine Learning",
+            "Sustainability",
+            "Frontend"
+          ],
+          "evidence": [
+            "Completed \"Peer-to-Peer Notes & Resource Sharing\" in EdTech",
+            "Expert proficiency with Frontend, Machine Learning, Sustainability"
+          ]
+        },
+        {
+          "profileId": "student-029",
+          "role": "Sustainability Lead",
+          "reason": "Chetan Dhillon provides vital Sustainability Lead execution capabilities, covering key project requirements.",
+          "skillsFilled": [
+            "Sustainability"
+          ],
+          "evidence": [
+            "Completed \"Voice-Assisted Form Filler for Seniors\" in Healthcare",
+            "Beginner proficiency with Sustainability, Robotics, PyTorch"
+          ]
+        },
+        {
+          "profileId": "student-175",
+          "role": "Healthcare AI Specialist",
+          "reason": "Mihir Sethi provides vital Healthcare AI Specialist execution capabilities, covering key project requirements.",
+          "skillsFilled": [
+            "Machine Learning"
+          ],
+          "evidence": [
+            "Completed \"Peer-to-Peer Notes & Resource Sharing\" in EdTech",
+            "Expert proficiency with Machine Learning, IoT, Geospatial Data"
+          ]
+        }
+      ],
+      "complementarityExplanation": "Each member fulfills distinct roles (Computer Vision Lead, Frontend Lead, Sustainability Lead, Healthcare AI Specialist) minimizing redundancy and providing complete coverage across required capabilities.",
+      "remainingGaps": []
+    },
+    "createdAt": "2026-08-25T08:22:13.234Z",
+    "id": "proj_1787646133235_tbu14",
+    "updatedAt": "2026-08-25T08:22:13.235Z"
+  },
+  {
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability",
+        "Smart Cities"
+      ],
+      "requiredSkills": [
+        "Computer Vision",
+        "Machine Learning",
+        "Sustainability"
+      ],
+      "preferredSkills": [
+        "Frontend",
+        "Backend",
+        "UI/UX"
+      ],
+      "roles": [
+        "ML Engineer",
+        "Full Stack Developer",
+        "UI/UX Designer",
+        "Domain Specialist"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [
+        "Project-level execution experience",
+        "Collaboration track record"
+      ],
+      "availabilityRequirement": "Flexible (Any Sprint Schedule)",
+      "normalizedSkills": [
+        {
+          "original": "Computer Vision",
+          "canonical": "Computer Vision",
+          "confidence": 1
+        },
+        {
+          "original": "Machine Learning",
+          "canonical": "Machine Learning",
+          "confidence": 1
+        },
+        {
+          "original": "Sustainability",
+          "canonical": "Sustainability",
+          "confidence": 1
+        }
+      ],
+      "isFallback": true
+    },
+    "team": [
+      {
+        "student": {
+          "id": "student-310",
+          "name": "Vikramaditya Amin",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=250",
+          "department": "Economics & Quantitative Finance",
+          "year": 3,
+          "bio": "Year 3 Economics & Quantitative Finance student specializing in Frontend Lead. Passionate about building impactful projects in EdTech and IoT and E-Commerce.",
+          "experienceLevel": "Expert",
+          "collaborationStyle": "Creative / Exploratory",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Frontend",
+              "level": "Expert"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Advanced"
+            },
+            {
+              "name": "Sustainability",
+              "level": "Intermediate"
+            },
+            {
+              "name": "MongoDB",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Docker",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "EdTech",
+            "IoT",
+            "E-Commerce"
+          ],
+          "availability": [
+            "Evenings",
+            "Weekends"
+          ],
+          "pastProjects": [
+            {
+              "title": "Peer-to-Peer Notes & Resource Sharing",
+              "description": "Developed scalable architecture for peer-to-peer notes & resource sharing utilizing Frontend and Machine Learning.",
+              "category": "EdTech",
+              "skills": [
+                "Full Stack",
+                "Next.js",
+                "PostgreSQL"
+              ]
+            },
+            {
+              "title": "Student Mental Health Companion",
+              "description": "Collaborated in a sprint team to deliver student mental health companion with focus on end-to-end integration.",
+              "category": "Healthcare",
+              "skills": [
+                "Natural Language Processing",
+                "React",
+                "UI/UX"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "Frontend Lead",
+            "Cloud & DevOps Engineer"
+          ]
+        },
+        "overallScore": 65,
+        "assignedRole": "Frontend Lead",
+        "breakdown": {
+          "skillMatch": 46,
+          "interestAlignment": 70,
+          "availability": 90,
+          "experience": 100,
+          "pastProjectRelevance": 45,
+          "collaborationFit": 90
+        },
+        "matchedRequiredSkills": [
+          "Machine Learning",
+          "Sustainability"
+        ],
+        "matchedPreferredSkills": [
+          "Frontend"
+        ],
+        "matchedInterests": [
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Peer-to-Peer Notes & Resource Sharing"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-410",
+          "name": "Vikramaditya Jindal",
+          "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=250",
+          "department": "Data Science & Analytics",
+          "year": 3,
+          "bio": "Year 3 Data Science & Analytics student specializing in Cloud & DevOps Engineer. Passionate about building impactful projects in EdTech and IoT and E-Commerce.",
+          "experienceLevel": "Expert",
+          "collaborationStyle": "Creative / Exploratory",
+          "preferredTeamSize": 5,
+          "skills": [
+            {
+              "name": "Backend",
+              "level": "Expert"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Advanced"
+            },
+            {
+              "name": "Sustainability",
+              "level": "Intermediate"
+            },
+            {
+              "name": "MongoDB",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Docker",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "EdTech",
+            "IoT",
+            "E-Commerce"
+          ],
+          "availability": [
+            "Evenings",
+            "Weekends"
+          ],
+          "pastProjects": [
+            {
+              "title": "Autonomous Drone Path Planner",
+              "description": "Developed scalable architecture for autonomous drone path planner utilizing Backend and Machine Learning.",
+              "category": "Robotics",
+              "skills": [
+                "Robotics",
+                "Python",
+                "IoT"
+              ]
+            },
+            {
+              "title": "Student Mental Health Companion",
+              "description": "Collaborated in a sprint team to deliver student mental health companion with focus on end-to-end integration.",
+              "category": "Healthcare",
+              "skills": [
+                "Natural Language Processing",
+                "React",
+                "UI/UX"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "Cloud & DevOps Engineer",
+            "Data Scientist"
+          ]
+        },
+        "overallScore": 64,
+        "assignedRole": "Cloud & DevOps Engineer",
+        "breakdown": {
+          "skillMatch": 46,
+          "interestAlignment": 70,
+          "availability": 90,
+          "experience": 100,
+          "pastProjectRelevance": 45,
+          "collaborationFit": 75
+        },
+        "matchedRequiredSkills": [
+          "Machine Learning",
+          "Sustainability"
+        ],
+        "matchedPreferredSkills": [
+          "Backend"
+        ],
+        "matchedInterests": [
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Autonomous Drone Path Planner"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-204",
+          "name": "Neha Pillai",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science & Engineering",
+          "year": 1,
+          "bio": "Year 1 Computer Science & Engineering student specializing in UI/UX Designer. Passionate about building impactful projects in IoT and EdTech and BioTech.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 3,
+          "skills": [
+            {
+              "name": "Frontend",
+              "level": "Advanced"
+            },
+            {
+              "name": "Figma",
+              "level": "Intermediate"
+            },
+            {
+              "name": "React Native",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Computer Vision",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Next.js",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "IoT",
+            "EdTech",
+            "BioTech"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings"
+          ],
+          "pastProjects": [
+            {
+              "title": "Urban Heat Island Geospatial Map",
+              "description": "Developed scalable architecture for urban heat island geospatial map utilizing Frontend and Figma.",
+              "category": "Smart Cities",
+              "skills": [
+                "Geospatial Data",
+                "GIS",
+                "Python"
+              ]
+            },
+            {
+              "title": "Campus Solid Waste Classification",
+              "description": "Collaborated in a sprint team to deliver campus solid waste classification with focus on end-to-end integration.",
+              "category": "Sustainability",
+              "skills": [
+                "Computer Vision",
+                "Deep Learning",
+                "Sustainability"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "UI/UX Designer",
+            "NLP Researcher"
+          ]
+        },
+        "overallScore": 61,
+        "assignedRole": "UI/UX Designer",
+        "breakdown": {
+          "skillMatch": 29,
+          "interestAlignment": 70,
+          "availability": 90,
+          "experience": 90,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 85
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision"
+        ],
+        "matchedPreferredSkills": [
+          "Frontend",
+          "UI/UX"
+        ],
+        "matchedInterests": [
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Urban Heat Island Geospatial Map",
+          "Campus Solid Waste Classification"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-049",
+          "name": "Rohit Desai",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=250",
+          "department": "Artificial Intelligence & Machine Learning",
+          "year": 2,
+          "bio": "Year 2 Artificial Intelligence & Machine Learning student specializing in Healthcare AI Specialist. Passionate about building impactful projects in Healthcare and Smart Cities and Sustainability.",
+          "experienceLevel": "Beginner",
+          "collaborationStyle": "Structured & Methodical",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Machine Learning",
+              "level": "Intermediate"
+            },
+            {
+              "name": "Robotics",
+              "level": "Intermediate"
+            },
+            {
+              "name": "ROS",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "Healthcare",
+            "Smart Cities",
+            "Sustainability"
+          ],
+          "availability": [
+            "Weekends",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Student Mental Health Companion",
+              "description": "Developed scalable architecture for student mental health companion utilizing Machine Learning and Robotics.",
+              "category": "Healthcare",
+              "skills": [
+                "Natural Language Processing",
+                "React",
+                "UI/UX"
+              ]
+            },
+            {
+              "title": "Campus Solid Waste Classification",
+              "description": "Collaborated in a sprint team to deliver campus solid waste classification with focus on end-to-end integration.",
+              "category": "Sustainability",
+              "skills": [
+                "Computer Vision",
+                "Deep Learning",
+                "Sustainability"
+              ]
+            }
+          ],
+          "preferredRoles": [
+            "Healthcare AI Specialist",
+            "Backend Architect"
+          ]
+        },
+        "overallScore": 60,
+        "assignedRole": "Healthcare AI Specialist",
+        "breakdown": {
+          "skillMatch": 16,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 50,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 90
+        },
+        "matchedRequiredSkills": [
+          "Machine Learning"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Student Mental Health Companion",
+          "Campus Solid Waste Classification"
+        ]
+      }
+    ],
+    "teamScore": 90,
+    "breakdown": {
+      "skillCoverage": 100,
+      "complementarity": 100,
+      "candidateQuality": 63,
+      "interestAlignment": 78,
+      "availability": 93,
+      "experienceRelevance": 76
+    },
+    "teamHealth": {
+      "overallHealth": "Needs Attention",
+      "healthScore": 43,
+      "coveredSkills": [
+        {
+          "skill": "Machine Learning",
+          "status": "strong",
+          "coveragePercent": 85,
+          "coveredBy": [
+            {
+              "studentId": "student-310",
+              "studentName": "Vikramaditya Amin",
+              "level": "Advanced"
+            },
+            {
+              "studentId": "student-410",
+              "studentName": "Vikramaditya Jindal",
+              "level": "Advanced"
+            },
+            {
+              "studentId": "student-049",
+              "studentName": "Rohit Desai",
+              "level": "Intermediate"
+            }
+          ]
+        },
+        {
+          "skill": "Frontend",
+          "status": "strong",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-310",
+              "studentName": "Vikramaditya Amin",
+              "level": "Expert"
+            },
+            {
+              "studentId": "student-204",
+              "studentName": "Neha Pillai",
+              "level": "Advanced"
+            }
+          ]
+        },
+        {
+          "skill": "Backend",
+          "status": "strong",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-410",
+              "studentName": "Vikramaditya Jindal",
+              "level": "Expert"
+            }
+          ]
+        }
+      ],
+      "weakSkills": [
+        {
+          "skill": "Computer Vision",
+          "status": "weak",
+          "coveragePercent": 65,
+          "coveredBy": [
+            {
+              "studentId": "student-204",
+              "studentName": "Neha Pillai",
+              "level": "Intermediate"
+            }
+          ]
+        },
+        {
+          "skill": "Sustainability",
+          "status": "weak",
+          "coveragePercent": 65,
+          "coveredBy": [
+            {
+              "studentId": "student-310",
+              "studentName": "Vikramaditya Amin",
+              "level": "Intermediate"
+            },
+            {
+              "studentId": "student-410",
+              "studentName": "Vikramaditya Jindal",
+              "level": "Intermediate"
+            }
+          ]
+        },
+        {
+          "skill": "UI/UX",
+          "status": "weak",
+          "coveragePercent": 65,
+          "coveredBy": [
+            {
+              "studentId": "student-204",
+              "studentName": "Neha Pillai",
+              "level": "Intermediate"
+            }
+          ]
+        }
+      ],
+      "missingSkills": [],
+      "redundantSkills": [
+        {
+          "skill": "Machine Learning",
+          "status": "redundant",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-310",
+              "studentName": "Vikramaditya Amin",
+              "level": "Advanced"
+            },
+            {
+              "studentId": "student-410",
+              "studentName": "Vikramaditya Jindal",
+              "level": "Advanced"
+            },
+            {
+              "studentId": "student-049",
+              "studentName": "Rohit Desai",
+              "level": "Intermediate"
+            }
+          ]
+        }
+      ],
+      "availabilityOverlapPercent": 82,
+      "criticalGapDetected": "Computer Vision"
+    },
+    "explanation": {
+      "teamSummary": "This 4-member team was formulated to maximize complementary skill coverage for AI / Sustainability. It balances technical execution with domain requirements.",
+      "members": [
+        {
+          "profileId": "student-310",
+          "role": "Frontend Lead",
+          "reason": "Vikramaditya Amin provides vital Frontend Lead execution capabilities, covering key project requirements.",
+          "skillsFilled": [
+            "Machine Learning",
+            "Sustainability",
+            "Frontend"
+          ],
+          "evidence": [
+            "Completed \"Peer-to-Peer Notes & Resource Sharing\" in EdTech",
+            "Expert proficiency with Frontend, Machine Learning, Sustainability"
+          ]
+        },
+        {
+          "profileId": "student-410",
+          "role": "Cloud & DevOps Engineer",
+          "reason": "Vikramaditya Jindal provides vital Cloud & DevOps Engineer execution capabilities, covering key project requirements.",
+          "skillsFilled": [
+            "Machine Learning",
+            "Sustainability",
+            "Backend"
+          ],
+          "evidence": [
+            "Completed \"Autonomous Drone Path Planner\" in Robotics",
+            "Expert proficiency with Backend, Machine Learning, Sustainability"
+          ]
+        },
+        {
+          "profileId": "student-204",
+          "role": "UI/UX Designer",
+          "reason": "Neha Pillai provides vital UI/UX Designer execution capabilities, covering key project requirements.",
+          "skillsFilled": [
+            "Computer Vision",
+            "Frontend",
+            "UI/UX"
+          ],
+          "evidence": [
+            "Completed \"Urban Heat Island Geospatial Map\" in Smart Cities",
+            "Advanced proficiency with Frontend, Figma, React Native"
+          ]
+        },
+        {
+          "profileId": "student-049",
+          "role": "Healthcare AI Specialist",
+          "reason": "Rohit Desai provides vital Healthcare AI Specialist execution capabilities, covering key project requirements.",
+          "skillsFilled": [
+            "Machine Learning"
+          ],
+          "evidence": [
+            "Completed \"Student Mental Health Companion\" in Healthcare",
+            "Beginner proficiency with Machine Learning, Robotics, ROS"
+          ]
+        }
+      ],
+      "complementarityExplanation": "Each member fulfills distinct roles (Frontend Lead, Cloud & DevOps Engineer, UI/UX Designer, Healthcare AI Specialist) minimizing redundancy and providing complete coverage across required capabilities.",
+      "remainingGaps": []
+    },
+    "createdAt": "2026-08-25T08:17:21.049Z",
+    "id": "proj_1787645841049_m1qmm",
+    "updatedAt": "2026-08-25T08:17:21.049Z"
+  },
+  {
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability",
+        "Smart Cities"
+      ],
+      "requiredSkills": [
+        "Computer Vision",
+        "Machine Learning",
+        "Sustainability"
+      ],
+      "preferredSkills": [
+        "Frontend",
+        "Backend",
+        "UI/UX"
+      ],
+      "roles": [
+        "ML Engineer",
+        "Full Stack Developer",
+        "UI/UX Designer",
+        "Domain Specialist"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [
+        "Project-level execution experience",
+        "Collaboration track record"
+      ],
+      "availabilityRequirement": "Flexible (Any Sprint Schedule)",
+      "normalizedSkills": [
+        {
+          "original": "Computer Vision",
+          "canonical": "Computer Vision",
+          "confidence": 1
+        },
+        {
+          "original": "Machine Learning",
+          "canonical": "Machine Learning",
+          "confidence": 1
+        },
+        {
+          "original": "Sustainability",
+          "canonical": "Sustainability",
+          "confidence": 1
+        }
+      ],
+      "isFallback": true
+    },
+    "team": [
+      {
+        "student": {
           "id": "student-310",
           "name": "Vikramaditya Amin",
           "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=250",

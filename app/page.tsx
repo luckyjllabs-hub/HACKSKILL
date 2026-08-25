@@ -228,7 +228,7 @@ export default function HomePage() {
         onScrollToFeatures={scrollToFeatures}
       />
 
-      <main className="flex-grow">
+      <main id="main-content" className="flex-grow" role="main" aria-label="Main application content">
         {/* Hero, Stats & Bento Grid Section */}
         <Hero
           onSelectPreset={handleSelectPreset}
@@ -250,12 +250,13 @@ export default function HomePage() {
 
         {/* Error Notification */}
         {error && (
-          <div className="max-w-2xl mx-auto my-6 p-4 rounded-xl bg-red-50 border border-red-200 text-red-700 text-xs flex items-center gap-3">
+          <div role="alert" aria-live="assertive" className="max-w-2xl mx-auto my-6 p-4 rounded-xl bg-red-50 border border-red-200 text-red-700 text-xs flex items-center gap-3">
             <AlertCircle className="w-4 h-4 text-red-600 shrink-0" />
             <div className="flex-1">{error}</div>
             <button
               onClick={() => setError(null)}
               className="px-3 py-1 rounded-full bg-red-100 text-red-800 font-semibold"
+              aria-label="Dismiss error message"
             >
               Dismiss
             </button>
@@ -264,7 +265,7 @@ export default function HomePage() {
 
         {/* Results Section */}
         {project && breakdown && teamHealth && !isLoading && (
-          <section ref={resultsRef} className="max-w-[1280px] mx-auto px-4 sm:px-8 md:px-16 py-12 space-y-8 animate-fadeIn">
+          <section ref={resultsRef} aria-label="AI matching results" className="max-w-[1280px] mx-auto px-4 sm:px-8 md:px-16 py-12 space-y-8 animate-fadeIn">
             {/* 1. Structured AI Requirements Card */}
             <ProjectRequirementsCard project={project} />
 
@@ -290,7 +291,7 @@ export default function HomePage() {
       </main>
 
       {/* Footer Component */}
-      <footer className="bg-surface-container-lowest w-full py-16 border-t border-outline-variant flex flex-col md:flex-row justify-between items-center px-4 sm:px-8 md:px-16 max-w-[1280px] mx-auto gap-8 text-xs">
+      <footer role="contentinfo" aria-label="Site footer" className="bg-surface-container-lowest w-full py-16 border-t border-outline-variant flex flex-col md:flex-row justify-between items-center px-4 sm:px-8 md:px-16 max-w-[1280px] mx-auto gap-8 text-xs">
         <div>
           <span className="text-xl font-bold text-primary">PROJECT AI-X</span>
         </div>

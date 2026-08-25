@@ -16,6 +16,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="light">
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#f9f9f9" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
@@ -28,6 +30,12 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen bg-surface text-on-background font-sans antialiased flex flex-col selection:bg-surface-container-highest">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[9999] focus:bg-primary focus:text-on-primary focus:px-4 focus:py-2 focus:rounded-lg focus:text-sm focus:font-semibold"
+        >
+          Skip to main content
+        </a>
         {children}
       </body>
     </html>

@@ -19,7 +19,7 @@ export const Hero: React.FC<HeroProps> = ({
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-16 md:py-24 px-4 sm:px-8 md:px-16 max-w-[1280px] mx-auto flex flex-col lg:flex-row items-center gap-12">
+      <section aria-label="Hero introduction" className="py-16 md:py-24 px-4 sm:px-8 md:px-16 max-w-[1280px] mx-auto flex flex-col lg:flex-row items-center gap-12">
         <div className="flex-1 space-y-8">
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight text-primary leading-[1.1] font-sans">
             Build the right team, not just a team.

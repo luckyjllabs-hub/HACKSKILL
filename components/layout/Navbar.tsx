@@ -74,7 +74,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   return (
     <>
-      <header className="bg-surface sticky top-0 z-50 border-b border-outline-variant">
+      <header role="banner" className="bg-surface sticky top-0 z-50 border-b border-outline-variant">
         <div className="flex justify-between items-center px-4 sm:px-8 md:px-16 h-20 w-full max-w-[1280px] mx-auto">
           {/* Brand */}
           <div
@@ -87,7 +87,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           </div>
 
           {/* Navigation */}
-          <nav className="hidden md:flex gap-8 items-center">
+          <nav aria-label="Main navigation" className="hidden md:flex gap-8 items-center">
             <button
               onClick={onScrollToBuilder}
               className="text-sm text-primary font-bold border-b-2 border-primary py-2 transition-colors"

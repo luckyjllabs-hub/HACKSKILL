@@ -34,12 +34,13 @@ export const MissingTeammateModal: React.FC<MissingTeammateModalProps> = ({
   const { candidate } = recommendation;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fadeIn">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fadeIn" role="dialog" aria-modal="true" aria-labelledby="missing-teammate-title">
       <div className="bg-surface-container-lowest w-full max-w-2xl rounded-2xl border border-outline-variant shadow-[0_20px_50px_rgba(0,0,0,0.15)] p-6 sm:p-8 relative overflow-hidden">
         {/* Close Button */}
         <button
           onClick={onClose}
           className="absolute top-5 right-5 p-1.5 rounded-full text-secondary hover:text-primary hover:bg-surface-container transition-colors"
+          aria-label="Close recommendation modal"
         >
           <X className="w-5 h-5" />
         </button>
@@ -51,7 +52,7 @@ export const MissingTeammateModal: React.FC<MissingTeammateModalProps> = ({
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <h3 className="text-xl font-bold text-primary tracking-tight">Missing Teammate Recommendation</h3>
+              <h3 id="missing-teammate-title" className="text-xl font-bold text-primary tracking-tight">Missing Teammate Recommendation</h3>
               <span className="text-[10px] uppercase font-bold px-2.5 py-0.5 rounded-full bg-surface-container border border-outline-variant text-primary">
                 Optimal Solver
               </span>

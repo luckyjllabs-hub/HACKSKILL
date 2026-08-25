@@ -107,25 +107,28 @@ export const ProjectForm: React.FC<ProjectFormProps> = ({
         <div className="w-full h-px bg-[#e8e8e8] my-8" />
 
         {/* Form */}
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form onSubmit={handleSubmit} className="space-y-6" aria-label="Project analysis form">
           {/* Project Description Block */}
           <div>
-            <label className="block text-[11px] font-bold uppercase tracking-wider text-[#1a1c1c] mb-3">
-              PROJECT DESCRIPTION <span className="text-red-500">*</span>
+            <label htmlFor="project-description" className="block text-[11px] font-bold uppercase tracking-wider text-[#1a1c1c] mb-3">
+              PROJECT DESCRIPTION <span aria-hidden="true" className="text-red-500">*</span>
             </label>
             <div className="bg-[#f3f3f4] rounded-2xl p-4 sm:p-5 border border-transparent focus-within:border-black focus-within:bg-white transition-all">
               <textarea
+                id="project-description"
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
                 placeholder="We are building an AI-powered system..."
                 rows={4}
                 required
+                aria-required="true"
+                aria-describedby="desc-hint"
                 disabled={isLoading}
                 className="w-full text-sm text-[#1a1c1c] bg-transparent border-0 focus:ring-0 focus:outline-none placeholder:text-[#858383] resize-none leading-relaxed p-0"
               />
             </div>
             <div className="flex justify-between items-center text-[11px] text-[#747878] mt-2 px-1">
-              <span>Be as specific as possible about the technical components.</span>
+              <span id="desc-hint">Be as specific as possible about the technical components.</span>
               <span className="font-mono">{description.length} chars</span>
             </div>
           </div>

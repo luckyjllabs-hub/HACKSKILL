@@ -1,0 +1,3719 @@
+[
+  {
+    "project": {
+      "projectCategory": "AI / Computer Vision",
+      "domain": [
+        "Smart Cities",
+        "Transportation"
+      ],
+      "requiredSkills": [
+        "Computer Vision",
+        "Machine Learning",
+        "Python",
+        "Mobile"
+      ],
+      "preferredSkills": [
+        "Backend",
+        "Geospatial Data",
+        "UI/UX"
+      ],
+      "roles": [
+        "Computer Vision Lead",
+        "Mobile Developer",
+        "Geospatial Lead",
+        "Backend Developer"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [
+        "Project-level execution experience",
+        "Collaboration track record"
+      ],
+      "availabilityRequirement": "Flexible",
+      "normalizedSkills": [
+        {
+          "original": "Computer Vision",
+          "canonical": "Computer Vision",
+          "confidence": 1
+        },
+        {
+          "original": "Machine Learning",
+          "canonical": "Machine Learning",
+          "confidence": 1
+        },
+        {
+          "original": "Python",
+          "canonical": "Python",
+          "confidence": 1
+        },
+        {
+          "original": "Mobile",
+          "canonical": "Mobile",
+          "confidence": 1
+        }
+      ],
+      "isFallback": true
+    },
+    "team": [
+      {
+        "student": {
+          "id": "student-001",
+          "name": "Aarav Sharma",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science & Engineering",
+          "year": 3,
+          "bio": "Passionate ML engineer with a focus on real-time computer vision and lightweight edge models. Led multiple hackathon-winning AI projects.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Computer Vision",
+              "level": "Expert"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Expert"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Deep Learning",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "AI",
+            "Smart Cities",
+            "Robotics",
+            "Transportation"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Traffic Sign Recognition & Lane Tracking",
+              "category": "AI / Computer Vision",
+              "description": "YOLOv8 based real-time traffic obstacle classifier running at 45 FPS on edge hardware.",
+              "skills": [
+                "Computer Vision",
+                "Python",
+                "Deep Learning"
+              ],
+              "role": "Lead ML Engineer"
+            },
+            {
+              "title": "Campus Safety AI",
+              "category": "AI / Smart Cities",
+              "description": "Automated CCTV anomaly detection for campus surveillance.",
+              "skills": [
+                "Machine Learning",
+                "Python",
+                "Computer Vision"
+              ],
+              "role": "CV Developer"
+            }
+          ],
+          "preferredRoles": [
+            "ML Engineer",
+            "Computer Vision Lead"
+          ],
+          "githubUrl": "https://github.com/aarav-ml",
+          "linkedinUrl": "https://linkedin.com/in/aaravsharma-ai"
+        },
+        "overallScore": 80,
+        "assignedRole": "Computer Vision Lead",
+        "breakdown": {
+          "skillMatch": 53,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 95,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision",
+          "Machine Learning",
+          "Python"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Smart Cities",
+          "Transportation"
+        ],
+        "matchedProjects": [
+          "Traffic Sign Recognition & Lane Tracking",
+          "Campus Safety AI"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-003",
+          "name": "Vikramaditya Rao",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science",
+          "year": 3,
+          "bio": "Computer Vision enthusiast. (High individual skill, but often redundant if another CV lead is already present).",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Computer Vision",
+              "level": "Advanced"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Advanced"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Deep Learning",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "AI",
+            "Smart Cities",
+            "Transportation"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings"
+          ],
+          "pastProjects": [
+            {
+              "title": "Pothole Segmentation Benchmark",
+              "category": "Computer Vision",
+              "description": "U-Net based semantic segmentation on pothole datasets.",
+              "skills": [
+                "Computer Vision",
+                "Python"
+              ],
+              "role": "ML Developer"
+            }
+          ],
+          "preferredRoles": [
+            "ML Engineer",
+            "Computer Vision Developer"
+          ]
+        },
+        "overallScore": 72,
+        "assignedRole": "ML Engineer",
+        "breakdown": {
+          "skillMatch": 48,
+          "interestAlignment": 100,
+          "availability": 90,
+          "experience": 95,
+          "pastProjectRelevance": 45,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision",
+          "Machine Learning",
+          "Python"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Smart Cities",
+          "Transportation"
+        ],
+        "matchedProjects": [
+          "Pothole Segmentation Benchmark"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-009",
+          "name": "Dr. Siddharth Roy",
+          "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=250",
+          "department": "Geoinformatics & Remote Sensing",
+          "year": 4,
+          "bio": "Geospatial data expert specializing in GIS mapping, satellite imagery, GPS telemetry, and municipal spatial overlays.",
+          "experienceLevel": "Expert",
+          "collaborationStyle": "Structured & Methodical",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Geospatial Data",
+              "level": "Expert"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Smart Cities",
+              "level": "Expert"
+            },
+            {
+              "name": "Data Science",
+              "level": "Advanced"
+            },
+            {
+              "name": "Domain Expertise",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "Smart Cities",
+            "Transportation",
+            "Climate",
+            "Agriculture"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Urban Heat Island & Canopy Spatial Map",
+              "category": "Smart Cities / GIS",
+              "description": "Processed Landsat-8 thermal bands to map thermal pockets across the city.",
+              "skills": [
+                "Geospatial Data",
+                "Python",
+                "Data Science"
+              ],
+              "role": "GIS Specialist"
+            },
+            {
+              "title": "Road Roughness & Pothole Spatial Grid",
+              "category": "Transportation",
+              "description": "Mapped 450 km of arterial road surface quality onto OpenStreetMap layers.",
+              "skills": [
+                "Geospatial Data",
+                "Smart Cities",
+                "Python"
+              ],
+              "role": "Spatial Data Lead"
+            }
+          ],
+          "preferredRoles": [
+            "Geospatial Lead",
+            "Domain Specialist"
+          ]
+        },
+        "overallScore": 68,
+        "assignedRole": "Geospatial Lead",
+        "breakdown": {
+          "skillMatch": 24,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 100,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 90
+        },
+        "matchedRequiredSkills": [
+          "Python"
+        ],
+        "matchedPreferredSkills": [
+          "Geospatial Data"
+        ],
+        "matchedInterests": [
+          "Smart Cities",
+          "Transportation"
+        ],
+        "matchedProjects": [
+          "Urban Heat Island & Canopy Spatial Map",
+          "Road Roughness & Pothole Spatial Grid"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-010",
+          "name": "Riya Kapoor",
+          "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science & Engineering",
+          "year": 3,
+          "bio": "Mobile App Engineer skilled in React Native and Flutter. Builds native camera integrations, offline sync, and smooth animations.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Mobile",
+              "level": "Expert"
+            },
+            {
+              "name": "React",
+              "level": "Advanced"
+            },
+            {
+              "name": "Frontend",
+              "level": "Advanced"
+            },
+            {
+              "name": "APIs",
+              "level": "Advanced"
+            },
+            {
+              "name": "UI/UX",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "Smart Cities",
+            "Healthcare",
+            "AI",
+            "Startups"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Weekends",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Civic Camera Reporter App",
+              "category": "Mobile / Smart Cities",
+              "description": "Flutter app with on-device camera ML inferences and geolocation tagging for civic complaints.",
+              "skills": [
+                "Mobile",
+                "APIs",
+                "UI/UX"
+              ],
+              "role": "Lead Mobile Developer"
+            }
+          ],
+          "preferredRoles": [
+            "Mobile Developer",
+            "Frontend Engineer"
+          ]
+        },
+        "overallScore": 58,
+        "assignedRole": "Mobile Developer",
+        "breakdown": {
+          "skillMatch": 90,
+          "interestAlignment": 85,
+          "availability": 95,
+          "experience": 80,
+          "pastProjectRelevance": 85,
+          "collaborationFit": 80
+        },
+        "matchedRequiredSkills": [
+          "Mobile"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Smart Cities",
+          "Transportation"
+        ],
+        "matchedProjects": [
+          "Civic Camera Reporter App"
+        ]
+      }
+    ],
+    "teamScore": 94,
+    "breakdown": {
+      "skillCoverage": 100,
+      "complementarity": 100,
+      "candidateQuality": 70,
+      "interestAlignment": 96,
+      "availability": 96,
+      "experienceRelevance": 85
+    },
+    "teamHealth": {
+      "overallHealth": "Needs Attention",
+      "healthScore": 90,
+      "coveredSkills": [
+        {
+          "skill": "Computer Vision",
+          "status": "strong",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-001",
+              "studentName": "Aarav Sharma",
+              "level": "Expert"
+            },
+            {
+              "studentId": "student-003",
+              "studentName": "Vikramaditya Rao",
+              "level": "Advanced"
+            }
+          ]
+        },
+        {
+          "skill": "Machine Learning",
+          "status": "strong",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-001",
+              "studentName": "Aarav Sharma",
+              "level": "Expert"
+            },
+            {
+              "studentId": "student-003",
+              "studentName": "Vikramaditya Rao",
+              "level": "Advanced"
+            }
+          ]
+        },
+        {
+          "skill": "Python",
+          "status": "strong",
+          "coveragePercent": 85,
+          "coveredBy": [
+            {
+              "studentId": "student-001",
+              "studentName": "Aarav Sharma",
+              "level": "Advanced"
+            },
+            {
+              "studentId": "student-003",
+              "studentName": "Vikramaditya Rao",
+              "level": "Advanced"
+            },
+            {
+              "studentId": "student-009",
+              "studentName": "Dr. Siddharth Roy",
+              "level": "Advanced"
+            }
+          ]
+        },
+        {
+          "skill": "Mobile",
+          "status": "strong",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-010",
+              "studentName": "Riya Kapoor",
+              "level": "Expert"
+            }
+          ]
+        },
+        {
+          "skill": "Geospatial Data",
+          "status": "strong",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-009",
+              "studentName": "Dr. Siddharth Roy",
+              "level": "Expert"
+            }
+          ]
+        }
+      ],
+      "weakSkills": [
+        {
+          "skill": "Backend",
+          "status": "weak",
+          "coveragePercent": 0,
+          "coveredBy": []
+        },
+        {
+          "skill": "UI/UX",
+          "status": "weak",
+          "coveragePercent": 65,
+          "coveredBy": [
+            {
+              "studentId": "student-010",
+              "studentName": "Riya Kapoor",
+              "level": "Intermediate"
+            }
+          ]
+        }
+      ],
+      "missingSkills": [],
+      "redundantSkills": [],
+      "availabilityOverlapPercent": 82,
+      "criticalGapDetected": "Backend"
+    },
+    "createdAt": "2026-08-25T07:00:37.116Z",
+    "id": "proj_1787641237117_jui25",
+    "updatedAt": "2026-08-25T07:00:37.117Z"
+  },
+  {
+    "project": {
+      "projectCategory": "AI / Computer Vision",
+      "domain": [
+        "Smart Cities",
+        "Transportation"
+      ],
+      "requiredSkills": [
+        "Computer Vision",
+        "Machine Learning",
+        "Python",
+        "Mobile"
+      ],
+      "preferredSkills": [
+        "Backend",
+        "Geospatial Data",
+        "UI/UX"
+      ],
+      "roles": [
+        "Computer Vision Lead",
+        "Mobile Developer",
+        "Geospatial Lead",
+        "Backend Developer"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [
+        "Project-level execution experience",
+        "Collaboration track record"
+      ],
+      "availabilityRequirement": "Flexible",
+      "normalizedSkills": [
+        {
+          "original": "Computer Vision",
+          "canonical": "Computer Vision",
+          "confidence": 1
+        },
+        {
+          "original": "Machine Learning",
+          "canonical": "Machine Learning",
+          "confidence": 1
+        },
+        {
+          "original": "Python",
+          "canonical": "Python",
+          "confidence": 1
+        },
+        {
+          "original": "Mobile",
+          "canonical": "Mobile",
+          "confidence": 1
+        }
+      ],
+      "isFallback": true
+    },
+    "team": [
+      {
+        "student": {
+          "id": "student-001",
+          "name": "Aarav Sharma",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science & Engineering",
+          "year": 3,
+          "bio": "Passionate ML engineer with a focus on real-time computer vision and lightweight edge models. Led multiple hackathon-winning AI projects.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Computer Vision",
+              "level": "Expert"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Expert"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Deep Learning",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "AI",
+            "Smart Cities",
+            "Robotics",
+            "Transportation"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Traffic Sign Recognition & Lane Tracking",
+              "category": "AI / Computer Vision",
+              "description": "YOLOv8 based real-time traffic obstacle classifier running at 45 FPS on edge hardware.",
+              "skills": [
+                "Computer Vision",
+                "Python",
+                "Deep Learning"
+              ],
+              "role": "Lead ML Engineer"
+            },
+            {
+              "title": "Campus Safety AI",
+              "category": "AI / Smart Cities",
+              "description": "Automated CCTV anomaly detection for campus surveillance.",
+              "skills": [
+                "Machine Learning",
+                "Python",
+                "Computer Vision"
+              ],
+              "role": "CV Developer"
+            }
+          ],
+          "preferredRoles": [
+            "ML Engineer",
+            "Computer Vision Lead"
+          ],
+          "githubUrl": "https://github.com/aarav-ml",
+          "linkedinUrl": "https://linkedin.com/in/aaravsharma-ai"
+        },
+        "overallScore": 80,
+        "assignedRole": "Computer Vision Lead",
+        "breakdown": {
+          "skillMatch": 53,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 95,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision",
+          "Machine Learning",
+          "Python"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Smart Cities",
+          "Transportation"
+        ],
+        "matchedProjects": [
+          "Traffic Sign Recognition & Lane Tracking",
+          "Campus Safety AI"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-003",
+          "name": "Vikramaditya Rao",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science",
+          "year": 3,
+          "bio": "Computer Vision enthusiast. (High individual skill, but often redundant if another CV lead is already present).",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Computer Vision",
+              "level": "Advanced"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Advanced"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Deep Learning",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "AI",
+            "Smart Cities",
+            "Transportation"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings"
+          ],
+          "pastProjects": [
+            {
+              "title": "Pothole Segmentation Benchmark",
+              "category": "Computer Vision",
+              "description": "U-Net based semantic segmentation on pothole datasets.",
+              "skills": [
+                "Computer Vision",
+                "Python"
+              ],
+              "role": "ML Developer"
+            }
+          ],
+          "preferredRoles": [
+            "ML Engineer",
+            "Computer Vision Developer"
+          ]
+        },
+        "overallScore": 72,
+        "assignedRole": "ML Engineer",
+        "breakdown": {
+          "skillMatch": 48,
+          "interestAlignment": 100,
+          "availability": 90,
+          "experience": 95,
+          "pastProjectRelevance": 45,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision",
+          "Machine Learning",
+          "Python"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Smart Cities",
+          "Transportation"
+        ],
+        "matchedProjects": [
+          "Pothole Segmentation Benchmark"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-009",
+          "name": "Dr. Siddharth Roy",
+          "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=250",
+          "department": "Geoinformatics & Remote Sensing",
+          "year": 4,
+          "bio": "Geospatial data expert specializing in GIS mapping, satellite imagery, GPS telemetry, and municipal spatial overlays.",
+          "experienceLevel": "Expert",
+          "collaborationStyle": "Structured & Methodical",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Geospatial Data",
+              "level": "Expert"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Smart Cities",
+              "level": "Expert"
+            },
+            {
+              "name": "Data Science",
+              "level": "Advanced"
+            },
+            {
+              "name": "Domain Expertise",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "Smart Cities",
+            "Transportation",
+            "Climate",
+            "Agriculture"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Urban Heat Island & Canopy Spatial Map",
+              "category": "Smart Cities / GIS",
+              "description": "Processed Landsat-8 thermal bands to map thermal pockets across the city.",
+              "skills": [
+                "Geospatial Data",
+                "Python",
+                "Data Science"
+              ],
+              "role": "GIS Specialist"
+            },
+            {
+              "title": "Road Roughness & Pothole Spatial Grid",
+              "category": "Transportation",
+              "description": "Mapped 450 km of arterial road surface quality onto OpenStreetMap layers.",
+              "skills": [
+                "Geospatial Data",
+                "Smart Cities",
+                "Python"
+              ],
+              "role": "Spatial Data Lead"
+            }
+          ],
+          "preferredRoles": [
+            "Geospatial Lead",
+            "Domain Specialist"
+          ]
+        },
+        "overallScore": 68,
+        "assignedRole": "Geospatial Lead",
+        "breakdown": {
+          "skillMatch": 24,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 100,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 90
+        },
+        "matchedRequiredSkills": [
+          "Python"
+        ],
+        "matchedPreferredSkills": [
+          "Geospatial Data"
+        ],
+        "matchedInterests": [
+          "Smart Cities",
+          "Transportation"
+        ],
+        "matchedProjects": [
+          "Urban Heat Island & Canopy Spatial Map",
+          "Road Roughness & Pothole Spatial Grid"
+        ]
+      }
+    ],
+    "teamScore": 84,
+    "breakdown": {
+      "skillCoverage": 75,
+      "complementarity": 93,
+      "candidateQuality": 73,
+      "interestAlignment": 100,
+      "availability": 97,
+      "experienceRelevance": 86
+    },
+    "teamHealth": {
+      "overallHealth": "Critical Gaps",
+      "healthScore": 63,
+      "coveredSkills": [
+        {
+          "skill": "Computer Vision",
+          "status": "strong",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-001",
+              "studentName": "Aarav Sharma",
+              "level": "Expert"
+            },
+            {
+              "studentId": "student-003",
+              "studentName": "Vikramaditya Rao",
+              "level": "Advanced"
+            }
+          ]
+        },
+        {
+          "skill": "Machine Learning",
+          "status": "strong",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-001",
+              "studentName": "Aarav Sharma",
+              "level": "Expert"
+            },
+            {
+              "studentId": "student-003",
+              "studentName": "Vikramaditya Rao",
+              "level": "Advanced"
+            }
+          ]
+        },
+        {
+          "skill": "Python",
+          "status": "strong",
+          "coveragePercent": 85,
+          "coveredBy": [
+            {
+              "studentId": "student-001",
+              "studentName": "Aarav Sharma",
+              "level": "Advanced"
+            },
+            {
+              "studentId": "student-003",
+              "studentName": "Vikramaditya Rao",
+              "level": "Advanced"
+            },
+            {
+              "studentId": "student-009",
+              "studentName": "Dr. Siddharth Roy",
+              "level": "Advanced"
+            }
+          ]
+        },
+        {
+          "skill": "Geospatial Data",
+          "status": "strong",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-009",
+              "studentName": "Dr. Siddharth Roy",
+              "level": "Expert"
+            }
+          ]
+        }
+      ],
+      "weakSkills": [
+        {
+          "skill": "Backend",
+          "status": "weak",
+          "coveragePercent": 0,
+          "coveredBy": []
+        },
+        {
+          "skill": "UI/UX",
+          "status": "weak",
+          "coveragePercent": 0,
+          "coveredBy": []
+        }
+      ],
+      "missingSkills": [
+        {
+          "skill": "Mobile",
+          "status": "missing",
+          "coveragePercent": 0,
+          "coveredBy": []
+        }
+      ],
+      "redundantSkills": [],
+      "availabilityOverlapPercent": 82,
+      "criticalGapDetected": "Mobile"
+    },
+    "createdAt": "2026-08-25T07:00:03.797Z",
+    "id": "proj_1787641203798_s2xis",
+    "updatedAt": "2026-08-25T07:00:03.798Z"
+  },
+  {
+    "project": {
+      "projectCategory": "AI / Computer Vision",
+      "domain": [
+        "Smart Cities",
+        "Transportation"
+      ],
+      "requiredSkills": [
+        "Computer Vision",
+        "Machine Learning",
+        "Python",
+        "Mobile"
+      ],
+      "preferredSkills": [
+        "Backend",
+        "Geospatial Data",
+        "UI/UX"
+      ],
+      "roles": [
+        "Computer Vision Lead",
+        "Mobile Developer",
+        "Geospatial Lead",
+        "Backend Developer"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [
+        "Project-level execution experience",
+        "Collaboration track record"
+      ],
+      "availabilityRequirement": "Flexible",
+      "normalizedSkills": [
+        {
+          "original": "Computer Vision",
+          "canonical": "Computer Vision",
+          "confidence": 1
+        },
+        {
+          "original": "Machine Learning",
+          "canonical": "Machine Learning",
+          "confidence": 1
+        },
+        {
+          "original": "Python",
+          "canonical": "Python",
+          "confidence": 1
+        },
+        {
+          "original": "Mobile",
+          "canonical": "Mobile",
+          "confidence": 1
+        }
+      ],
+      "isFallback": true
+    },
+    "team": [
+      {
+        "student": {
+          "id": "student-001",
+          "name": "Aarav Sharma",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science & Engineering",
+          "year": 3,
+          "bio": "Passionate ML engineer with a focus on real-time computer vision and lightweight edge models. Led multiple hackathon-winning AI projects.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Computer Vision",
+              "level": "Expert"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Expert"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Deep Learning",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "AI",
+            "Smart Cities",
+            "Robotics",
+            "Transportation"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Traffic Sign Recognition & Lane Tracking",
+              "category": "AI / Computer Vision",
+              "description": "YOLOv8 based real-time traffic obstacle classifier running at 45 FPS on edge hardware.",
+              "skills": [
+                "Computer Vision",
+                "Python",
+                "Deep Learning"
+              ],
+              "role": "Lead ML Engineer"
+            },
+            {
+              "title": "Campus Safety AI",
+              "category": "AI / Smart Cities",
+              "description": "Automated CCTV anomaly detection for campus surveillance.",
+              "skills": [
+                "Machine Learning",
+                "Python",
+                "Computer Vision"
+              ],
+              "role": "CV Developer"
+            }
+          ],
+          "preferredRoles": [
+            "ML Engineer",
+            "Computer Vision Lead"
+          ],
+          "githubUrl": "https://github.com/aarav-ml",
+          "linkedinUrl": "https://linkedin.com/in/aaravsharma-ai"
+        },
+        "overallScore": 80,
+        "assignedRole": "Computer Vision Lead",
+        "breakdown": {
+          "skillMatch": 53,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 95,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision",
+          "Machine Learning",
+          "Python"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Smart Cities",
+          "Transportation"
+        ],
+        "matchedProjects": [
+          "Traffic Sign Recognition & Lane Tracking",
+          "Campus Safety AI"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-003",
+          "name": "Vikramaditya Rao",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science",
+          "year": 3,
+          "bio": "Computer Vision enthusiast. (High individual skill, but often redundant if another CV lead is already present).",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Computer Vision",
+              "level": "Advanced"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Advanced"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Deep Learning",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "AI",
+            "Smart Cities",
+            "Transportation"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings"
+          ],
+          "pastProjects": [
+            {
+              "title": "Pothole Segmentation Benchmark",
+              "category": "Computer Vision",
+              "description": "U-Net based semantic segmentation on pothole datasets.",
+              "skills": [
+                "Computer Vision",
+                "Python"
+              ],
+              "role": "ML Developer"
+            }
+          ],
+          "preferredRoles": [
+            "ML Engineer",
+            "Computer Vision Developer"
+          ]
+        },
+        "overallScore": 72,
+        "assignedRole": "ML Engineer",
+        "breakdown": {
+          "skillMatch": 48,
+          "interestAlignment": 100,
+          "availability": 90,
+          "experience": 95,
+          "pastProjectRelevance": 45,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision",
+          "Machine Learning",
+          "Python"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Smart Cities",
+          "Transportation"
+        ],
+        "matchedProjects": [
+          "Pothole Segmentation Benchmark"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-009",
+          "name": "Dr. Siddharth Roy",
+          "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=250",
+          "department": "Geoinformatics & Remote Sensing",
+          "year": 4,
+          "bio": "Geospatial data expert specializing in GIS mapping, satellite imagery, GPS telemetry, and municipal spatial overlays.",
+          "experienceLevel": "Expert",
+          "collaborationStyle": "Structured & Methodical",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Geospatial Data",
+              "level": "Expert"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Smart Cities",
+              "level": "Expert"
+            },
+            {
+              "name": "Data Science",
+              "level": "Advanced"
+            },
+            {
+              "name": "Domain Expertise",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "Smart Cities",
+            "Transportation",
+            "Climate",
+            "Agriculture"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Urban Heat Island & Canopy Spatial Map",
+              "category": "Smart Cities / GIS",
+              "description": "Processed Landsat-8 thermal bands to map thermal pockets across the city.",
+              "skills": [
+                "Geospatial Data",
+                "Python",
+                "Data Science"
+              ],
+              "role": "GIS Specialist"
+            },
+            {
+              "title": "Road Roughness & Pothole Spatial Grid",
+              "category": "Transportation",
+              "description": "Mapped 450 km of arterial road surface quality onto OpenStreetMap layers.",
+              "skills": [
+                "Geospatial Data",
+                "Smart Cities",
+                "Python"
+              ],
+              "role": "Spatial Data Lead"
+            }
+          ],
+          "preferredRoles": [
+            "Geospatial Lead",
+            "Domain Specialist"
+          ]
+        },
+        "overallScore": 68,
+        "assignedRole": "Geospatial Lead",
+        "breakdown": {
+          "skillMatch": 24,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 100,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 90
+        },
+        "matchedRequiredSkills": [
+          "Python"
+        ],
+        "matchedPreferredSkills": [
+          "Geospatial Data"
+        ],
+        "matchedInterests": [
+          "Smart Cities",
+          "Transportation"
+        ],
+        "matchedProjects": [
+          "Urban Heat Island & Canopy Spatial Map",
+          "Road Roughness & Pothole Spatial Grid"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-010",
+          "name": "Riya Kapoor",
+          "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science & Engineering",
+          "year": 3,
+          "bio": "Mobile App Engineer skilled in React Native and Flutter. Builds native camera integrations, offline sync, and smooth animations.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Mobile",
+              "level": "Expert"
+            },
+            {
+              "name": "React",
+              "level": "Advanced"
+            },
+            {
+              "name": "Frontend",
+              "level": "Advanced"
+            },
+            {
+              "name": "APIs",
+              "level": "Advanced"
+            },
+            {
+              "name": "UI/UX",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "Smart Cities",
+            "Healthcare",
+            "AI",
+            "Startups"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Weekends",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Civic Camera Reporter App",
+              "category": "Mobile / Smart Cities",
+              "description": "Flutter app with on-device camera ML inferences and geolocation tagging for civic complaints.",
+              "skills": [
+                "Mobile",
+                "APIs",
+                "UI/UX"
+              ],
+              "role": "Lead Mobile Developer"
+            }
+          ],
+          "preferredRoles": [
+            "Mobile Developer",
+            "Frontend Engineer"
+          ]
+        },
+        "overallScore": 58,
+        "assignedRole": "Mobile Developer",
+        "breakdown": {
+          "skillMatch": 24,
+          "interestAlignment": 70,
+          "availability": 100,
+          "experience": 95,
+          "pastProjectRelevance": 45,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Mobile"
+        ],
+        "matchedPreferredSkills": [
+          "UI/UX"
+        ],
+        "matchedInterests": [
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Civic Camera Reporter App"
+        ]
+      }
+    ],
+    "teamScore": 94,
+    "breakdown": {
+      "skillCoverage": 100,
+      "complementarity": 100,
+      "candidateQuality": 70,
+      "interestAlignment": 93,
+      "availability": 98,
+      "experienceRelevance": 82
+    },
+    "teamHealth": {
+      "overallHealth": "Needs Attention",
+      "healthScore": 90,
+      "coveredSkills": [
+        {
+          "skill": "Computer Vision",
+          "status": "strong",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-001",
+              "studentName": "Aarav Sharma",
+              "level": "Expert"
+            },
+            {
+              "studentId": "student-003",
+              "studentName": "Vikramaditya Rao",
+              "level": "Advanced"
+            }
+          ]
+        },
+        {
+          "skill": "Machine Learning",
+          "status": "strong",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-001",
+              "studentName": "Aarav Sharma",
+              "level": "Expert"
+            },
+            {
+              "studentId": "student-003",
+              "studentName": "Vikramaditya Rao",
+              "level": "Advanced"
+            }
+          ]
+        },
+        {
+          "skill": "Python",
+          "status": "strong",
+          "coveragePercent": 85,
+          "coveredBy": [
+            {
+              "studentId": "student-001",
+              "studentName": "Aarav Sharma",
+              "level": "Advanced"
+            },
+            {
+              "studentId": "student-003",
+              "studentName": "Vikramaditya Rao",
+              "level": "Advanced"
+            },
+            {
+              "studentId": "student-009",
+              "studentName": "Dr. Siddharth Roy",
+              "level": "Advanced"
+            }
+          ]
+        },
+        {
+          "skill": "Mobile",
+          "status": "strong",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-010",
+              "studentName": "Riya Kapoor",
+              "level": "Expert"
+            }
+          ]
+        },
+        {
+          "skill": "Geospatial Data",
+          "status": "strong",
+          "coveragePercent": 100,
+          "coveredBy": [
+            {
+              "studentId": "student-009",
+              "studentName": "Dr. Siddharth Roy",
+              "level": "Expert"
+            }
+          ]
+        }
+      ],
+      "weakSkills": [
+        {
+          "skill": "Backend",
+          "status": "weak",
+          "coveragePercent": 0,
+          "coveredBy": []
+        },
+        {
+          "skill": "UI/UX",
+          "status": "weak",
+          "coveragePercent": 65,
+          "coveredBy": [
+            {
+              "studentId": "student-010",
+              "studentName": "Riya Kapoor",
+              "level": "Intermediate"
+            }
+          ]
+        }
+      ],
+      "missingSkills": [],
+      "redundantSkills": [],
+      "availabilityOverlapPercent": 82,
+      "criticalGapDetected": "Backend"
+    },
+    "explanation": {
+      "teamSummary": "This 4-member team was formulated to maximize complementary skill coverage for AI / Computer Vision. It balances technical execution with domain requirements.",
+      "members": [
+        {
+          "profileId": "student-001",
+          "role": "Computer Vision Lead",
+          "reason": "Aarav Sharma provides vital Computer Vision Lead execution capabilities, covering key project requirements.",
+          "skillsFilled": [
+            "Computer Vision",
+            "Machine Learning",
+            "Python"
+          ],
+          "evidence": [
+            "Completed \"Traffic Sign Recognition & Lane Tracking\" in AI / Computer Vision",
+            "Advanced proficiency with Computer Vision, Machine Learning, Python"
+          ]
+        },
+        {
+          "profileId": "student-003",
+          "role": "ML Engineer",
+          "reason": "Vikramaditya Rao provides vital ML Engineer execution capabilities, covering key project requirements.",
+          "skillsFilled": [
+            "Computer Vision",
+            "Machine Learning",
+            "Python"
+          ],
+          "evidence": [
+            "Completed \"Pothole Segmentation Benchmark\" in Computer Vision",
+            "Advanced proficiency with Computer Vision, Machine Learning, Python"
+          ]
+        },
+        {
+          "profileId": "student-009",
+          "role": "Geospatial Lead",
+          "reason": "Dr. Siddharth Roy provides vital Geospatial Lead execution capabilities, covering key project requirements.",
+          "skillsFilled": [
+            "Python",
+            "Geospatial Data"
+          ],
+          "evidence": [
+            "Completed \"Urban Heat Island & Canopy Spatial Map\" in Smart Cities / GIS",
+            "Expert proficiency with Geospatial Data, Python, Smart Cities"
+          ]
+        },
+        {
+          "profileId": "student-010",
+          "role": "Mobile Developer",
+          "reason": "Riya Kapoor provides vital Mobile Developer execution capabilities, covering key project requirements.",
+          "skillsFilled": [
+            "Mobile",
+            "UI/UX"
+          ],
+          "evidence": [
+            "Completed \"Civic Camera Reporter App\" in Mobile / Smart Cities",
+            "Advanced proficiency with Mobile, React, Frontend"
+          ]
+        }
+      ],
+      "complementarityExplanation": "Each member fulfills distinct roles (Computer Vision Lead, ML Engineer, Geospatial Lead, Mobile Developer) minimizing redundancy and providing complete coverage across required capabilities.",
+      "remainingGaps": []
+    },
+    "createdAt": "2026-08-25T06:59:42.447Z",
+    "id": "proj_1787641182447_atdp0",
+    "updatedAt": "2026-08-25T06:59:42.447Z"
+  },
+  {
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability",
+        "Smart Cities"
+      ],
+      "requiredSkills": [
+        "Computer Vision",
+        "Machine Learning",
+        "Sustainability"
+      ],
+      "preferredSkills": [
+        "Frontend",
+        "Backend",
+        "UI/UX"
+      ],
+      "roles": [
+        "ML Engineer",
+        "Full Stack Developer",
+        "UI/UX Designer",
+        "Domain Specialist"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [
+        "Project-level execution experience",
+        "Collaboration track record"
+      ],
+      "availabilityRequirement": "Flexible",
+      "normalizedSkills": [
+        {
+          "original": "Computer Vision",
+          "canonical": "Computer Vision",
+          "confidence": 1
+        },
+        {
+          "original": "Machine Learning",
+          "canonical": "Machine Learning",
+          "confidence": 1
+        },
+        {
+          "original": "Sustainability",
+          "canonical": "Sustainability",
+          "confidence": 1
+        }
+      ],
+      "isFallback": true
+    },
+    "team": [
+      {
+        "student": {
+          "id": "student-001",
+          "name": "Aarav Sharma",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science & Engineering",
+          "year": 3,
+          "bio": "Passionate ML engineer with a focus on real-time computer vision and lightweight edge models. Led multiple hackathon-winning AI projects.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Computer Vision",
+              "level": "Expert"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Expert"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Deep Learning",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "AI",
+            "Smart Cities",
+            "Robotics",
+            "Transportation"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Traffic Sign Recognition & Lane Tracking",
+              "category": "AI / Computer Vision",
+              "description": "YOLOv8 based real-time traffic obstacle classifier running at 45 FPS on edge hardware.",
+              "skills": [
+                "Computer Vision",
+                "Python",
+                "Deep Learning"
+              ],
+              "role": "Lead ML Engineer"
+            },
+            {
+              "title": "Campus Safety AI",
+              "category": "AI / Smart Cities",
+              "description": "Automated CCTV anomaly detection for campus surveillance.",
+              "skills": [
+                "Machine Learning",
+                "Python",
+                "Computer Vision"
+              ],
+              "role": "CV Developer"
+            }
+          ],
+          "preferredRoles": [
+            "ML Engineer",
+            "Computer Vision Lead"
+          ],
+          "githubUrl": "https://github.com/aarav-ml",
+          "linkedinUrl": "https://linkedin.com/in/aaravsharma-ai"
+        },
+        "overallScore": 79,
+        "assignedRole": "ML Engineer",
+        "breakdown": {
+          "skillMatch": 50,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 95,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision",
+          "Machine Learning"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Traffic Sign Recognition & Lane Tracking",
+          "Campus Safety AI"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-003",
+          "name": "Vikramaditya Rao",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science",
+          "year": 3,
+          "bio": "Computer Vision enthusiast. (High individual skill, but often redundant if another CV lead is already present).",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Computer Vision",
+              "level": "Advanced"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Advanced"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Deep Learning",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "AI",
+            "Smart Cities",
+            "Transportation"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings"
+          ],
+          "pastProjects": [
+            {
+              "title": "Pothole Segmentation Benchmark",
+              "category": "Computer Vision",
+              "description": "U-Net based semantic segmentation on pothole datasets.",
+              "skills": [
+                "Computer Vision",
+                "Python"
+              ],
+              "role": "ML Developer"
+            }
+          ],
+          "preferredRoles": [
+            "ML Engineer",
+            "Computer Vision Developer"
+          ]
+        },
+        "overallScore": 70,
+        "assignedRole": "ML Engineer",
+        "breakdown": {
+          "skillMatch": 43,
+          "interestAlignment": 100,
+          "availability": 90,
+          "experience": 95,
+          "pastProjectRelevance": 45,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision",
+          "Machine Learning"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Pothole Segmentation Benchmark"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-008",
+          "name": "Rahul Verma",
+          "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=250",
+          "department": "Civil & Environmental Engineering",
+          "year": 4,
+          "bio": "Domain specialist in Municipal Waste Systems, Urban Circularity, and Environmental Compliance. Bridges technology with ground realities.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Balanced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Sustainability",
+              "level": "Expert"
+            },
+            {
+              "name": "Domain Expertise",
+              "level": "Expert"
+            },
+            {
+              "name": "Smart Cities",
+              "level": "Advanced"
+            },
+            {
+              "name": "Research",
+              "level": "Advanced"
+            },
+            {
+              "name": "Pitching",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "Sustainability",
+            "Smart Cities",
+            "Climate",
+            "Clean Energy"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Weekends",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "City Municipal Solid Waste Audit",
+              "category": "Sustainability / Smart Cities",
+              "description": "Evaluated 120 ward segregation protocols and drafted urban material recovery facility guidelines.",
+              "skills": [
+                "Sustainability",
+                "Domain Expertise",
+                "Smart Cities",
+                "Research"
+              ],
+              "role": "Domain Lead & Auditor"
+            },
+            {
+              "title": "Campus Zero-Waste Initiative",
+              "category": "Sustainability",
+              "description": "Diverted 60% of university cafeteria food waste into organic composting.",
+              "skills": [
+                "Sustainability",
+                "Project Management"
+              ],
+              "role": "Project Coordinator"
+            }
+          ],
+          "preferredRoles": [
+            "Domain Specialist",
+            "Sustainability Lead",
+            "Pitch Presenter"
+          ]
+        },
+        "overallScore": 69,
+        "assignedRole": "Domain Specialist",
+        "breakdown": {
+          "skillMatch": 25,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 100,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Sustainability"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "City Municipal Solid Waste Audit",
+          "Campus Zero-Waste Initiative"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-009",
+          "name": "Dr. Siddharth Roy",
+          "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=250",
+          "department": "Geoinformatics & Remote Sensing",
+          "year": 4,
+          "bio": "Geospatial data expert specializing in GIS mapping, satellite imagery, GPS telemetry, and municipal spatial overlays.",
+          "experienceLevel": "Expert",
+          "collaborationStyle": "Structured & Methodical",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Geospatial Data",
+              "level": "Expert"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Smart Cities",
+              "level": "Expert"
+            },
+            {
+              "name": "Data Science",
+              "level": "Advanced"
+            },
+            {
+              "name": "Domain Expertise",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "Smart Cities",
+            "Transportation",
+            "Climate",
+            "Agriculture"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Urban Heat Island & Canopy Spatial Map",
+              "category": "Smart Cities / GIS",
+              "description": "Processed Landsat-8 thermal bands to map thermal pockets across the city.",
+              "skills": [
+                "Geospatial Data",
+                "Python",
+                "Data Science"
+              ],
+              "role": "GIS Specialist"
+            },
+            {
+              "title": "Road Roughness & Pothole Spatial Grid",
+              "category": "Transportation",
+              "description": "Mapped 450 km of arterial road surface quality onto OpenStreetMap layers.",
+              "skills": [
+                "Geospatial Data",
+                "Smart Cities",
+                "Python"
+              ],
+              "role": "Spatial Data Lead"
+            }
+          ],
+          "preferredRoles": [
+            "Geospatial Lead",
+            "Domain Specialist"
+          ]
+        },
+        "overallScore": 59,
+        "assignedRole": "Domain Specialist",
+        "breakdown": {
+          "skillMatch": 0,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 100,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 90
+        },
+        "matchedRequiredSkills": [],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Urban Heat Island & Canopy Spatial Map",
+          "Road Roughness & Pothole Spatial Grid"
+        ]
+      }
+    ],
+    "teamScore": 95,
+    "breakdown": {
+      "skillCoverage": 100,
+      "complementarity": 100,
+      "candidateQuality": 69,
+      "interestAlignment": 100,
+      "availability": 98,
+      "experienceRelevance": 88
+    },
+    "createdAt": "2026-08-25T06:55:48.016Z",
+    "id": "proj_1787640948017_m8syg",
+    "updatedAt": "2026-08-25T06:55:48.017Z"
+  },
+  {
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability",
+        "Smart Cities"
+      ],
+      "requiredSkills": [
+        "Computer Vision",
+        "Machine Learning",
+        "Sustainability"
+      ],
+      "preferredSkills": [
+        "Frontend",
+        "Backend",
+        "UI/UX"
+      ],
+      "roles": [
+        "ML Engineer",
+        "Full Stack Developer",
+        "UI/UX Designer",
+        "Domain Specialist"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [
+        "Project-level execution experience",
+        "Collaboration track record"
+      ],
+      "availabilityRequirement": "Flexible",
+      "normalizedSkills": [
+        {
+          "original": "Computer Vision",
+          "canonical": "Computer Vision",
+          "confidence": 1
+        },
+        {
+          "original": "Machine Learning",
+          "canonical": "Machine Learning",
+          "confidence": 1
+        },
+        {
+          "original": "Sustainability",
+          "canonical": "Sustainability",
+          "confidence": 1
+        }
+      ],
+      "isFallback": true
+    },
+    "team": [
+      {
+        "student": {
+          "id": "student-001",
+          "name": "Aarav Sharma",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science & Engineering",
+          "year": 3,
+          "bio": "Passionate ML engineer with a focus on real-time computer vision and lightweight edge models. Led multiple hackathon-winning AI projects.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Computer Vision",
+              "level": "Expert"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Expert"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Deep Learning",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "AI",
+            "Smart Cities",
+            "Robotics",
+            "Transportation"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Traffic Sign Recognition & Lane Tracking",
+              "category": "AI / Computer Vision",
+              "description": "YOLOv8 based real-time traffic obstacle classifier running at 45 FPS on edge hardware.",
+              "skills": [
+                "Computer Vision",
+                "Python",
+                "Deep Learning"
+              ],
+              "role": "Lead ML Engineer"
+            },
+            {
+              "title": "Campus Safety AI",
+              "category": "AI / Smart Cities",
+              "description": "Automated CCTV anomaly detection for campus surveillance.",
+              "skills": [
+                "Machine Learning",
+                "Python",
+                "Computer Vision"
+              ],
+              "role": "CV Developer"
+            }
+          ],
+          "preferredRoles": [
+            "ML Engineer",
+            "Computer Vision Lead"
+          ],
+          "githubUrl": "https://github.com/aarav-ml",
+          "linkedinUrl": "https://linkedin.com/in/aaravsharma-ai"
+        },
+        "overallScore": 79,
+        "assignedRole": "ML Engineer",
+        "breakdown": {
+          "skillMatch": 50,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 95,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision",
+          "Machine Learning"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Traffic Sign Recognition & Lane Tracking",
+          "Campus Safety AI"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-003",
+          "name": "Vikramaditya Rao",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science",
+          "year": 3,
+          "bio": "Computer Vision enthusiast. (High individual skill, but often redundant if another CV lead is already present).",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Computer Vision",
+              "level": "Advanced"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Advanced"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Deep Learning",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "AI",
+            "Smart Cities",
+            "Transportation"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings"
+          ],
+          "pastProjects": [
+            {
+              "title": "Pothole Segmentation Benchmark",
+              "category": "Computer Vision",
+              "description": "U-Net based semantic segmentation on pothole datasets.",
+              "skills": [
+                "Computer Vision",
+                "Python"
+              ],
+              "role": "ML Developer"
+            }
+          ],
+          "preferredRoles": [
+            "ML Engineer",
+            "Computer Vision Developer"
+          ]
+        },
+        "overallScore": 70,
+        "assignedRole": "ML Engineer",
+        "breakdown": {
+          "skillMatch": 43,
+          "interestAlignment": 100,
+          "availability": 90,
+          "experience": 95,
+          "pastProjectRelevance": 45,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision",
+          "Machine Learning"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Pothole Segmentation Benchmark"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-008",
+          "name": "Rahul Verma",
+          "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=250",
+          "department": "Civil & Environmental Engineering",
+          "year": 4,
+          "bio": "Domain specialist in Municipal Waste Systems, Urban Circularity, and Environmental Compliance. Bridges technology with ground realities.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Balanced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Sustainability",
+              "level": "Expert"
+            },
+            {
+              "name": "Domain Expertise",
+              "level": "Expert"
+            },
+            {
+              "name": "Smart Cities",
+              "level": "Advanced"
+            },
+            {
+              "name": "Research",
+              "level": "Advanced"
+            },
+            {
+              "name": "Pitching",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "Sustainability",
+            "Smart Cities",
+            "Climate",
+            "Clean Energy"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Weekends",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "City Municipal Solid Waste Audit",
+              "category": "Sustainability / Smart Cities",
+              "description": "Evaluated 120 ward segregation protocols and drafted urban material recovery facility guidelines.",
+              "skills": [
+                "Sustainability",
+                "Domain Expertise",
+                "Smart Cities",
+                "Research"
+              ],
+              "role": "Domain Lead & Auditor"
+            },
+            {
+              "title": "Campus Zero-Waste Initiative",
+              "category": "Sustainability",
+              "description": "Diverted 60% of university cafeteria food waste into organic composting.",
+              "skills": [
+                "Sustainability",
+                "Project Management"
+              ],
+              "role": "Project Coordinator"
+            }
+          ],
+          "preferredRoles": [
+            "Domain Specialist",
+            "Sustainability Lead",
+            "Pitch Presenter"
+          ]
+        },
+        "overallScore": 69,
+        "assignedRole": "Domain Specialist",
+        "breakdown": {
+          "skillMatch": 25,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 100,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Sustainability"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "City Municipal Solid Waste Audit",
+          "Campus Zero-Waste Initiative"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-009",
+          "name": "Dr. Siddharth Roy",
+          "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=250",
+          "department": "Geoinformatics & Remote Sensing",
+          "year": 4,
+          "bio": "Geospatial data expert specializing in GIS mapping, satellite imagery, GPS telemetry, and municipal spatial overlays.",
+          "experienceLevel": "Expert",
+          "collaborationStyle": "Structured & Methodical",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Geospatial Data",
+              "level": "Expert"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Smart Cities",
+              "level": "Expert"
+            },
+            {
+              "name": "Data Science",
+              "level": "Advanced"
+            },
+            {
+              "name": "Domain Expertise",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "Smart Cities",
+            "Transportation",
+            "Climate",
+            "Agriculture"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Urban Heat Island & Canopy Spatial Map",
+              "category": "Smart Cities / GIS",
+              "description": "Processed Landsat-8 thermal bands to map thermal pockets across the city.",
+              "skills": [
+                "Geospatial Data",
+                "Python",
+                "Data Science"
+              ],
+              "role": "GIS Specialist"
+            },
+            {
+              "title": "Road Roughness & Pothole Spatial Grid",
+              "category": "Transportation",
+              "description": "Mapped 450 km of arterial road surface quality onto OpenStreetMap layers.",
+              "skills": [
+                "Geospatial Data",
+                "Smart Cities",
+                "Python"
+              ],
+              "role": "Spatial Data Lead"
+            }
+          ],
+          "preferredRoles": [
+            "Geospatial Lead",
+            "Domain Specialist"
+          ]
+        },
+        "overallScore": 59,
+        "assignedRole": "Domain Specialist",
+        "breakdown": {
+          "skillMatch": 0,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 100,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 90
+        },
+        "matchedRequiredSkills": [],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Urban Heat Island & Canopy Spatial Map",
+          "Road Roughness & Pothole Spatial Grid"
+        ]
+      }
+    ],
+    "teamScore": 95,
+    "breakdown": {
+      "skillCoverage": 100,
+      "complementarity": 100,
+      "candidateQuality": 69,
+      "interestAlignment": 100,
+      "availability": 98,
+      "experienceRelevance": 88
+    },
+    "createdAt": "2026-08-25T06:55:40.614Z",
+    "id": "proj_1787640940614_am69j",
+    "updatedAt": "2026-08-25T06:55:40.614Z"
+  },
+  {
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability",
+        "Smart Cities"
+      ],
+      "requiredSkills": [
+        "Computer Vision",
+        "Machine Learning",
+        "Sustainability"
+      ],
+      "preferredSkills": [
+        "Frontend",
+        "Backend",
+        "UI/UX"
+      ],
+      "roles": [
+        "ML Engineer",
+        "Full Stack Developer",
+        "UI/UX Designer",
+        "Domain Specialist"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [
+        "Project-level execution experience",
+        "Collaboration track record"
+      ],
+      "availabilityRequirement": "Flexible",
+      "normalizedSkills": [
+        {
+          "original": "Computer Vision",
+          "canonical": "Computer Vision",
+          "confidence": 1
+        },
+        {
+          "original": "Machine Learning",
+          "canonical": "Machine Learning",
+          "confidence": 1
+        },
+        {
+          "original": "Sustainability",
+          "canonical": "Sustainability",
+          "confidence": 1
+        }
+      ],
+      "isFallback": true
+    },
+    "team": [
+      {
+        "student": {
+          "id": "student-001",
+          "name": "Aarav Sharma",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science & Engineering",
+          "year": 3,
+          "bio": "Passionate ML engineer with a focus on real-time computer vision and lightweight edge models. Led multiple hackathon-winning AI projects.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Computer Vision",
+              "level": "Expert"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Expert"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Deep Learning",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "AI",
+            "Smart Cities",
+            "Robotics",
+            "Transportation"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Traffic Sign Recognition & Lane Tracking",
+              "category": "AI / Computer Vision",
+              "description": "YOLOv8 based real-time traffic obstacle classifier running at 45 FPS on edge hardware.",
+              "skills": [
+                "Computer Vision",
+                "Python",
+                "Deep Learning"
+              ],
+              "role": "Lead ML Engineer"
+            },
+            {
+              "title": "Campus Safety AI",
+              "category": "AI / Smart Cities",
+              "description": "Automated CCTV anomaly detection for campus surveillance.",
+              "skills": [
+                "Machine Learning",
+                "Python",
+                "Computer Vision"
+              ],
+              "role": "CV Developer"
+            }
+          ],
+          "preferredRoles": [
+            "ML Engineer",
+            "Computer Vision Lead"
+          ],
+          "githubUrl": "https://github.com/aarav-ml",
+          "linkedinUrl": "https://linkedin.com/in/aaravsharma-ai"
+        },
+        "overallScore": 79,
+        "assignedRole": "ML Engineer",
+        "breakdown": {
+          "skillMatch": 50,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 95,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision",
+          "Machine Learning"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Traffic Sign Recognition & Lane Tracking",
+          "Campus Safety AI"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-003",
+          "name": "Vikramaditya Rao",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science",
+          "year": 3,
+          "bio": "Computer Vision enthusiast. (High individual skill, but often redundant if another CV lead is already present).",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Computer Vision",
+              "level": "Advanced"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Advanced"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Deep Learning",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "AI",
+            "Smart Cities",
+            "Transportation"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings"
+          ],
+          "pastProjects": [
+            {
+              "title": "Pothole Segmentation Benchmark",
+              "category": "Computer Vision",
+              "description": "U-Net based semantic segmentation on pothole datasets.",
+              "skills": [
+                "Computer Vision",
+                "Python"
+              ],
+              "role": "ML Developer"
+            }
+          ],
+          "preferredRoles": [
+            "ML Engineer",
+            "Computer Vision Developer"
+          ]
+        },
+        "overallScore": 70,
+        "assignedRole": "ML Engineer",
+        "breakdown": {
+          "skillMatch": 43,
+          "interestAlignment": 100,
+          "availability": 90,
+          "experience": 95,
+          "pastProjectRelevance": 45,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision",
+          "Machine Learning"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Pothole Segmentation Benchmark"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-008",
+          "name": "Rahul Verma",
+          "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=250",
+          "department": "Civil & Environmental Engineering",
+          "year": 4,
+          "bio": "Domain specialist in Municipal Waste Systems, Urban Circularity, and Environmental Compliance. Bridges technology with ground realities.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Balanced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Sustainability",
+              "level": "Expert"
+            },
+            {
+              "name": "Domain Expertise",
+              "level": "Expert"
+            },
+            {
+              "name": "Smart Cities",
+              "level": "Advanced"
+            },
+            {
+              "name": "Research",
+              "level": "Advanced"
+            },
+            {
+              "name": "Pitching",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "Sustainability",
+            "Smart Cities",
+            "Climate",
+            "Clean Energy"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Weekends",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "City Municipal Solid Waste Audit",
+              "category": "Sustainability / Smart Cities",
+              "description": "Evaluated 120 ward segregation protocols and drafted urban material recovery facility guidelines.",
+              "skills": [
+                "Sustainability",
+                "Domain Expertise",
+                "Smart Cities",
+                "Research"
+              ],
+              "role": "Domain Lead & Auditor"
+            },
+            {
+              "title": "Campus Zero-Waste Initiative",
+              "category": "Sustainability",
+              "description": "Diverted 60% of university cafeteria food waste into organic composting.",
+              "skills": [
+                "Sustainability",
+                "Project Management"
+              ],
+              "role": "Project Coordinator"
+            }
+          ],
+          "preferredRoles": [
+            "Domain Specialist",
+            "Sustainability Lead",
+            "Pitch Presenter"
+          ]
+        },
+        "overallScore": 69,
+        "assignedRole": "Domain Specialist",
+        "breakdown": {
+          "skillMatch": 25,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 100,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Sustainability"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "City Municipal Solid Waste Audit",
+          "Campus Zero-Waste Initiative"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-009",
+          "name": "Dr. Siddharth Roy",
+          "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=250",
+          "department": "Geoinformatics & Remote Sensing",
+          "year": 4,
+          "bio": "Geospatial data expert specializing in GIS mapping, satellite imagery, GPS telemetry, and municipal spatial overlays.",
+          "experienceLevel": "Expert",
+          "collaborationStyle": "Structured & Methodical",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Geospatial Data",
+              "level": "Expert"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Smart Cities",
+              "level": "Expert"
+            },
+            {
+              "name": "Data Science",
+              "level": "Advanced"
+            },
+            {
+              "name": "Domain Expertise",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "Smart Cities",
+            "Transportation",
+            "Climate",
+            "Agriculture"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Urban Heat Island & Canopy Spatial Map",
+              "category": "Smart Cities / GIS",
+              "description": "Processed Landsat-8 thermal bands to map thermal pockets across the city.",
+              "skills": [
+                "Geospatial Data",
+                "Python",
+                "Data Science"
+              ],
+              "role": "GIS Specialist"
+            },
+            {
+              "title": "Road Roughness & Pothole Spatial Grid",
+              "category": "Transportation",
+              "description": "Mapped 450 km of arterial road surface quality onto OpenStreetMap layers.",
+              "skills": [
+                "Geospatial Data",
+                "Smart Cities",
+                "Python"
+              ],
+              "role": "Spatial Data Lead"
+            }
+          ],
+          "preferredRoles": [
+            "Geospatial Lead",
+            "Domain Specialist"
+          ]
+        },
+        "overallScore": 59,
+        "assignedRole": "Domain Specialist",
+        "breakdown": {
+          "skillMatch": 0,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 100,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 90
+        },
+        "matchedRequiredSkills": [],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Urban Heat Island & Canopy Spatial Map",
+          "Road Roughness & Pothole Spatial Grid"
+        ]
+      }
+    ],
+    "teamScore": 95,
+    "breakdown": {
+      "skillCoverage": 100,
+      "complementarity": 100,
+      "candidateQuality": 69,
+      "interestAlignment": 100,
+      "availability": 98,
+      "experienceRelevance": 88
+    },
+    "createdAt": "2026-08-25T06:55:29.284Z",
+    "id": "proj_1787640929284_d7bkh",
+    "updatedAt": "2026-08-25T06:55:29.284Z"
+  },
+  {
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability",
+        "Smart Cities"
+      ],
+      "requiredSkills": [
+        "Computer Vision",
+        "Machine Learning",
+        "Sustainability"
+      ],
+      "preferredSkills": [
+        "Frontend",
+        "Backend",
+        "UI/UX"
+      ],
+      "roles": [
+        "ML Engineer",
+        "Full Stack Developer",
+        "UI/UX Designer",
+        "Domain Specialist"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [
+        "Project-level execution experience",
+        "Collaboration track record"
+      ],
+      "availabilityRequirement": "Flexible",
+      "normalizedSkills": [
+        {
+          "original": "Computer Vision",
+          "canonical": "Computer Vision",
+          "confidence": 1
+        },
+        {
+          "original": "Machine Learning",
+          "canonical": "Machine Learning",
+          "confidence": 1
+        },
+        {
+          "original": "Sustainability",
+          "canonical": "Sustainability",
+          "confidence": 1
+        }
+      ],
+      "isFallback": true
+    },
+    "team": [
+      {
+        "student": {
+          "id": "student-001",
+          "name": "Aarav Sharma",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science & Engineering",
+          "year": 3,
+          "bio": "Passionate ML engineer with a focus on real-time computer vision and lightweight edge models. Led multiple hackathon-winning AI projects.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Computer Vision",
+              "level": "Expert"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Expert"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Deep Learning",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "AI",
+            "Smart Cities",
+            "Robotics",
+            "Transportation"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Traffic Sign Recognition & Lane Tracking",
+              "category": "AI / Computer Vision",
+              "description": "YOLOv8 based real-time traffic obstacle classifier running at 45 FPS on edge hardware.",
+              "skills": [
+                "Computer Vision",
+                "Python",
+                "Deep Learning"
+              ],
+              "role": "Lead ML Engineer"
+            },
+            {
+              "title": "Campus Safety AI",
+              "category": "AI / Smart Cities",
+              "description": "Automated CCTV anomaly detection for campus surveillance.",
+              "skills": [
+                "Machine Learning",
+                "Python",
+                "Computer Vision"
+              ],
+              "role": "CV Developer"
+            }
+          ],
+          "preferredRoles": [
+            "ML Engineer",
+            "Computer Vision Lead"
+          ],
+          "githubUrl": "https://github.com/aarav-ml",
+          "linkedinUrl": "https://linkedin.com/in/aaravsharma-ai"
+        },
+        "overallScore": 79,
+        "assignedRole": "ML Engineer",
+        "breakdown": {
+          "skillMatch": 50,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 95,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision",
+          "Machine Learning"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Traffic Sign Recognition & Lane Tracking",
+          "Campus Safety AI"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-003",
+          "name": "Vikramaditya Rao",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science",
+          "year": 3,
+          "bio": "Computer Vision enthusiast. (High individual skill, but often redundant if another CV lead is already present).",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Computer Vision",
+              "level": "Advanced"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Advanced"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Deep Learning",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "AI",
+            "Smart Cities",
+            "Transportation"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings"
+          ],
+          "pastProjects": [
+            {
+              "title": "Pothole Segmentation Benchmark",
+              "category": "Computer Vision",
+              "description": "U-Net based semantic segmentation on pothole datasets.",
+              "skills": [
+                "Computer Vision",
+                "Python"
+              ],
+              "role": "ML Developer"
+            }
+          ],
+          "preferredRoles": [
+            "ML Engineer",
+            "Computer Vision Developer"
+          ]
+        },
+        "overallScore": 70,
+        "assignedRole": "ML Engineer",
+        "breakdown": {
+          "skillMatch": 43,
+          "interestAlignment": 100,
+          "availability": 90,
+          "experience": 95,
+          "pastProjectRelevance": 45,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision",
+          "Machine Learning"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Pothole Segmentation Benchmark"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-008",
+          "name": "Rahul Verma",
+          "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=250",
+          "department": "Civil & Environmental Engineering",
+          "year": 4,
+          "bio": "Domain specialist in Municipal Waste Systems, Urban Circularity, and Environmental Compliance. Bridges technology with ground realities.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Balanced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Sustainability",
+              "level": "Expert"
+            },
+            {
+              "name": "Domain Expertise",
+              "level": "Expert"
+            },
+            {
+              "name": "Smart Cities",
+              "level": "Advanced"
+            },
+            {
+              "name": "Research",
+              "level": "Advanced"
+            },
+            {
+              "name": "Pitching",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "Sustainability",
+            "Smart Cities",
+            "Climate",
+            "Clean Energy"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Weekends",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "City Municipal Solid Waste Audit",
+              "category": "Sustainability / Smart Cities",
+              "description": "Evaluated 120 ward segregation protocols and drafted urban material recovery facility guidelines.",
+              "skills": [
+                "Sustainability",
+                "Domain Expertise",
+                "Smart Cities",
+                "Research"
+              ],
+              "role": "Domain Lead & Auditor"
+            },
+            {
+              "title": "Campus Zero-Waste Initiative",
+              "category": "Sustainability",
+              "description": "Diverted 60% of university cafeteria food waste into organic composting.",
+              "skills": [
+                "Sustainability",
+                "Project Management"
+              ],
+              "role": "Project Coordinator"
+            }
+          ],
+          "preferredRoles": [
+            "Domain Specialist",
+            "Sustainability Lead",
+            "Pitch Presenter"
+          ]
+        },
+        "overallScore": 69,
+        "assignedRole": "Domain Specialist",
+        "breakdown": {
+          "skillMatch": 25,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 100,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Sustainability"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "City Municipal Solid Waste Audit",
+          "Campus Zero-Waste Initiative"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-009",
+          "name": "Dr. Siddharth Roy",
+          "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=250",
+          "department": "Geoinformatics & Remote Sensing",
+          "year": 4,
+          "bio": "Geospatial data expert specializing in GIS mapping, satellite imagery, GPS telemetry, and municipal spatial overlays.",
+          "experienceLevel": "Expert",
+          "collaborationStyle": "Structured & Methodical",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Geospatial Data",
+              "level": "Expert"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Smart Cities",
+              "level": "Expert"
+            },
+            {
+              "name": "Data Science",
+              "level": "Advanced"
+            },
+            {
+              "name": "Domain Expertise",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "Smart Cities",
+            "Transportation",
+            "Climate",
+            "Agriculture"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Urban Heat Island & Canopy Spatial Map",
+              "category": "Smart Cities / GIS",
+              "description": "Processed Landsat-8 thermal bands to map thermal pockets across the city.",
+              "skills": [
+                "Geospatial Data",
+                "Python",
+                "Data Science"
+              ],
+              "role": "GIS Specialist"
+            },
+            {
+              "title": "Road Roughness & Pothole Spatial Grid",
+              "category": "Transportation",
+              "description": "Mapped 450 km of arterial road surface quality onto OpenStreetMap layers.",
+              "skills": [
+                "Geospatial Data",
+                "Smart Cities",
+                "Python"
+              ],
+              "role": "Spatial Data Lead"
+            }
+          ],
+          "preferredRoles": [
+            "Geospatial Lead",
+            "Domain Specialist"
+          ]
+        },
+        "overallScore": 59,
+        "assignedRole": "Domain Specialist",
+        "breakdown": {
+          "skillMatch": 0,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 100,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 90
+        },
+        "matchedRequiredSkills": [],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Urban Heat Island & Canopy Spatial Map",
+          "Road Roughness & Pothole Spatial Grid"
+        ]
+      }
+    ],
+    "teamScore": 95,
+    "breakdown": {
+      "skillCoverage": 100,
+      "complementarity": 100,
+      "candidateQuality": 69,
+      "interestAlignment": 100,
+      "availability": 98,
+      "experienceRelevance": 88
+    },
+    "createdAt": "2026-08-25T06:55:11.871Z",
+    "id": "proj_1787640911871_eqa7e",
+    "updatedAt": "2026-08-25T06:55:11.872Z"
+  },
+  {
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability",
+        "Smart Cities"
+      ],
+      "requiredSkills": [
+        "Computer Vision",
+        "Machine Learning",
+        "Sustainability"
+      ],
+      "preferredSkills": [
+        "Frontend",
+        "Backend",
+        "UI/UX"
+      ],
+      "roles": [
+        "ML Engineer",
+        "Full Stack Developer",
+        "UI/UX Designer",
+        "Domain Specialist"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [
+        "Project-level execution experience",
+        "Collaboration track record"
+      ],
+      "availabilityRequirement": "Flexible",
+      "normalizedSkills": [
+        {
+          "original": "Computer Vision",
+          "canonical": "Computer Vision",
+          "confidence": 1
+        },
+        {
+          "original": "Machine Learning",
+          "canonical": "Machine Learning",
+          "confidence": 1
+        },
+        {
+          "original": "Sustainability",
+          "canonical": "Sustainability",
+          "confidence": 1
+        }
+      ],
+      "isFallback": true
+    },
+    "team": [
+      {
+        "student": {
+          "id": "student-001",
+          "name": "Aarav Sharma",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science & Engineering",
+          "year": 3,
+          "bio": "Passionate ML engineer with a focus on real-time computer vision and lightweight edge models. Led multiple hackathon-winning AI projects.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Computer Vision",
+              "level": "Expert"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Expert"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Deep Learning",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "AI",
+            "Smart Cities",
+            "Robotics",
+            "Transportation"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Traffic Sign Recognition & Lane Tracking",
+              "category": "AI / Computer Vision",
+              "description": "YOLOv8 based real-time traffic obstacle classifier running at 45 FPS on edge hardware.",
+              "skills": [
+                "Computer Vision",
+                "Python",
+                "Deep Learning"
+              ],
+              "role": "Lead ML Engineer"
+            },
+            {
+              "title": "Campus Safety AI",
+              "category": "AI / Smart Cities",
+              "description": "Automated CCTV anomaly detection for campus surveillance.",
+              "skills": [
+                "Machine Learning",
+                "Python",
+                "Computer Vision"
+              ],
+              "role": "CV Developer"
+            }
+          ],
+          "preferredRoles": [
+            "ML Engineer",
+            "Computer Vision Lead"
+          ],
+          "githubUrl": "https://github.com/aarav-ml",
+          "linkedinUrl": "https://linkedin.com/in/aaravsharma-ai"
+        },
+        "overallScore": 79,
+        "assignedRole": "ML Engineer",
+        "breakdown": {
+          "skillMatch": 50,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 95,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision",
+          "Machine Learning"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Traffic Sign Recognition & Lane Tracking",
+          "Campus Safety AI"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-003",
+          "name": "Vikramaditya Rao",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=250",
+          "department": "Computer Science",
+          "year": 3,
+          "bio": "Computer Vision enthusiast. (High individual skill, but often redundant if another CV lead is already present).",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Agile / Fast-Paced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Computer Vision",
+              "level": "Advanced"
+            },
+            {
+              "name": "Machine Learning",
+              "level": "Advanced"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Deep Learning",
+              "level": "Intermediate"
+            }
+          ],
+          "interests": [
+            "AI",
+            "Smart Cities",
+            "Transportation"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings"
+          ],
+          "pastProjects": [
+            {
+              "title": "Pothole Segmentation Benchmark",
+              "category": "Computer Vision",
+              "description": "U-Net based semantic segmentation on pothole datasets.",
+              "skills": [
+                "Computer Vision",
+                "Python"
+              ],
+              "role": "ML Developer"
+            }
+          ],
+          "preferredRoles": [
+            "ML Engineer",
+            "Computer Vision Developer"
+          ]
+        },
+        "overallScore": 70,
+        "assignedRole": "ML Engineer",
+        "breakdown": {
+          "skillMatch": 43,
+          "interestAlignment": 100,
+          "availability": 90,
+          "experience": 95,
+          "pastProjectRelevance": 45,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Computer Vision",
+          "Machine Learning"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Pothole Segmentation Benchmark"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-008",
+          "name": "Rahul Verma",
+          "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=250",
+          "department": "Civil & Environmental Engineering",
+          "year": 4,
+          "bio": "Domain specialist in Municipal Waste Systems, Urban Circularity, and Environmental Compliance. Bridges technology with ground realities.",
+          "experienceLevel": "Advanced",
+          "collaborationStyle": "Balanced",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Sustainability",
+              "level": "Expert"
+            },
+            {
+              "name": "Domain Expertise",
+              "level": "Expert"
+            },
+            {
+              "name": "Smart Cities",
+              "level": "Advanced"
+            },
+            {
+              "name": "Research",
+              "level": "Advanced"
+            },
+            {
+              "name": "Pitching",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "Sustainability",
+            "Smart Cities",
+            "Climate",
+            "Clean Energy"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Weekends",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "City Municipal Solid Waste Audit",
+              "category": "Sustainability / Smart Cities",
+              "description": "Evaluated 120 ward segregation protocols and drafted urban material recovery facility guidelines.",
+              "skills": [
+                "Sustainability",
+                "Domain Expertise",
+                "Smart Cities",
+                "Research"
+              ],
+              "role": "Domain Lead & Auditor"
+            },
+            {
+              "title": "Campus Zero-Waste Initiative",
+              "category": "Sustainability",
+              "description": "Diverted 60% of university cafeteria food waste into organic composting.",
+              "skills": [
+                "Sustainability",
+                "Project Management"
+              ],
+              "role": "Project Coordinator"
+            }
+          ],
+          "preferredRoles": [
+            "Domain Specialist",
+            "Sustainability Lead",
+            "Pitch Presenter"
+          ]
+        },
+        "overallScore": 69,
+        "assignedRole": "Domain Specialist",
+        "breakdown": {
+          "skillMatch": 25,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 100,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 100
+        },
+        "matchedRequiredSkills": [
+          "Sustainability"
+        ],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "City Municipal Solid Waste Audit",
+          "Campus Zero-Waste Initiative"
+        ]
+      },
+      {
+        "student": {
+          "id": "student-009",
+          "name": "Dr. Siddharth Roy",
+          "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=250",
+          "department": "Geoinformatics & Remote Sensing",
+          "year": 4,
+          "bio": "Geospatial data expert specializing in GIS mapping, satellite imagery, GPS telemetry, and municipal spatial overlays.",
+          "experienceLevel": "Expert",
+          "collaborationStyle": "Structured & Methodical",
+          "preferredTeamSize": 4,
+          "skills": [
+            {
+              "name": "Geospatial Data",
+              "level": "Expert"
+            },
+            {
+              "name": "Python",
+              "level": "Advanced"
+            },
+            {
+              "name": "Smart Cities",
+              "level": "Expert"
+            },
+            {
+              "name": "Data Science",
+              "level": "Advanced"
+            },
+            {
+              "name": "Domain Expertise",
+              "level": "Advanced"
+            }
+          ],
+          "interests": [
+            "Smart Cities",
+            "Transportation",
+            "Climate",
+            "Agriculture"
+          ],
+          "availability": [
+            "Weekdays",
+            "Evenings",
+            "Flexible"
+          ],
+          "pastProjects": [
+            {
+              "title": "Urban Heat Island & Canopy Spatial Map",
+              "category": "Smart Cities / GIS",
+              "description": "Processed Landsat-8 thermal bands to map thermal pockets across the city.",
+              "skills": [
+                "Geospatial Data",
+                "Python",
+                "Data Science"
+              ],
+              "role": "GIS Specialist"
+            },
+            {
+              "title": "Road Roughness & Pothole Spatial Grid",
+              "category": "Transportation",
+              "description": "Mapped 450 km of arterial road surface quality onto OpenStreetMap layers.",
+              "skills": [
+                "Geospatial Data",
+                "Smart Cities",
+                "Python"
+              ],
+              "role": "Spatial Data Lead"
+            }
+          ],
+          "preferredRoles": [
+            "Geospatial Lead",
+            "Domain Specialist"
+          ]
+        },
+        "overallScore": 59,
+        "assignedRole": "Domain Specialist",
+        "breakdown": {
+          "skillMatch": 0,
+          "interestAlignment": 100,
+          "availability": 100,
+          "experience": 100,
+          "pastProjectRelevance": 90,
+          "collaborationFit": 90
+        },
+        "matchedRequiredSkills": [],
+        "matchedPreferredSkills": [],
+        "matchedInterests": [
+          "Sustainability",
+          "Smart Cities"
+        ],
+        "matchedProjects": [
+          "Urban Heat Island & Canopy Spatial Map",
+          "Road Roughness & Pothole Spatial Grid"
+        ]
+      }
+    ],
+    "teamScore": 95,
+    "breakdown": {
+      "skillCoverage": 100,
+      "complementarity": 100,
+      "candidateQuality": 69,
+      "interestAlignment": 100,
+      "availability": 98,
+      "experienceRelevance": 88
+    },
+    "createdAt": "2026-08-25T06:54:39.750Z",
+    "id": "proj_1787640879750_9x0mn",
+    "updatedAt": "2026-08-25T06:54:39.750Z"
+  }
+]

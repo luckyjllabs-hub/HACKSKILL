@@ -1,20 +1,37 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-// Initialize Gemini SDK client server-side only
-const apiKey = process.env.GEMINI_API_KEY || "";
-
-export const genAI = apiKey ? new GoogleGenerativeAI(apiKey) : null;
-
 /**
- * Selected Gemini Model identifier
+ * Default Gemini Model identifier
  */
 export const GEMINI_MODEL = "gemini-1.5-flash";
+
+/**
+ * Returns current Gemini API Key from process environment
+ */
+export function getGeminiApiKey(): string {
+  return (
+    process.env.GEMINI_API_KEY ||
+    process.env.GOOGLE_GENAI_API_KEY ||
+    process.env.NEXT_PUBLIC_GEMINI_API_KEY ||
+    ""
+  ).trim();
+}
 
 /**
  * Returns whether Gemini is configured with a valid API key
  */
 export function isGeminiConfigured(): boolean {
-  return Boolean(process.env.GEMINI_API_KEY && process.env.GEMINI_API_KEY.trim().length > 0);
+  const key = getGeminiApiKey();
+  return Boolean(key && key.length > 5);
+}
+
+/**
+ * Instantiates a fresh GoogleGenerativeAI client
+ */
+export function getGenAIClient(customKey?: string): GoogleGenerativeAI | null {
+  const key = customKey || getGeminiApiKey();
+  if (!key) return null;
+  return new GoogleGenerativeAI(key);
 }
 
 /**
@@ -23,9 +40,13 @@ export function isGeminiConfigured(): boolean {
 export async function callGeminiStructured<T>(
   systemInstruction: string,
   userPrompt: string,
-  timeoutMs: number = 8000
-): Promise<{ rawText: string; data: T | null; error: string | null }> {
-  if (!genAI || !isGeminiConfigured()) {
+  timeoutMs: number = 8500,
+  customApiKey?: string
+): Promise<{ rawText: string; data: T | null; error: string | null; latencyMs?: number }> {
+  const startTime = Date.now();
+  const client = getGenAIClient(customApiKey);
+
+  if (!client) {
     return {
       rawText: "",
       data: null,
@@ -34,7 +55,7 @@ export async function callGeminiStructured<T>(
   }
 
   try {
-    const model = genAI.getGenerativeModel({
+    const model = client.getGenerativeModel({
       model: GEMINI_MODEL,
       systemInstruction: systemInstruction,
       generationConfig: {
@@ -54,7 +75,7 @@ export async function callGeminiStructured<T>(
       try {
         parsed = JSON.parse(text) as T;
       } catch (err) {
-        // Try extracting json block if enclosed in markdown
+        // Try extracting JSON block if enclosed in markdown
         const match = text.match(/\{[\s\S]*\}/);
         if (match) {
           parsed = JSON.parse(match[0]) as T;
@@ -63,10 +84,12 @@ export async function callGeminiStructured<T>(
       return { rawText: text, data: parsed, error: null };
     })();
 
-    return await Promise.race([apiPromise, timeoutPromise]);
+    const result = await Promise.race([apiPromise, timeoutPromise]);
+    const latencyMs = Date.now() - startTime;
+    return { ...result, latencyMs };
   } catch (err: unknown) {
     const errorMsg = err instanceof Error ? err.message : "Unknown Gemini API error";
     console.warn("[Gemini AI Service Error]:", errorMsg);
-    return { rawText: "", data: null, error: errorMsg };
+    return { rawText: "", data: null, error: errorMsg, latencyMs: Date.now() - startTime };
   }
 }

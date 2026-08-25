@@ -233,7 +233,7 @@ export const TeamComposer: React.FC<TeamComposerProps> = ({
             return (
               <div
                 key={member.student.id}
-                className="bg-surface-container-lowest border border-outline-variant rounded-2xl p-6 hover:border-primary/40 transition-all shadow-[0_20px_50px_rgba(0,0,0,0.02)] relative"
+                className="bg-surface-container-lowest border border-outline-variant rounded-2xl p-6 hover:border-primary/40 transition-all shadow-[0_20px_50px_rgba(0,0,0,0.02)] relative hover-lift"
               >
                 <div className="flex items-start justify-between gap-4">
                   {/* Avatar & Meta */}

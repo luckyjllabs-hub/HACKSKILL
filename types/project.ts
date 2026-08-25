@@ -12,6 +12,8 @@ export interface ProjectAnalysisResult {
   requiredSkills: string[];
   preferredSkills: string[];
   roles: string[];
+  suggestedRoles?: string[];
+  summary?: string;
   recommendedTeamSize: number;
   experienceRequirements: string[];
   availabilityRequirement?: string;

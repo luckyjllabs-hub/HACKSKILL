@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Users, Clock, Tag, RefreshCw, Sparkles, ArrowRight } from "lucide-react";
+import { Users, Clock, Tag, RefreshCw, ArrowRight } from "lucide-react";
 import { DEMO_PRESETS } from "@/data/seed/demo-presets";
 import { DemoPreset, ProjectAnalysisInput } from "@/types/project";
 
@@ -16,17 +16,17 @@ export const ProjectForm: React.FC<ProjectFormProps> = ({
   isLoading,
   selectedPreset,
 }) => {
-  const [description, setDescription] = useState("");
+  const [description, setDescription] = useState(DEMO_PRESETS[0].description);
   const [teamSize, setTeamSize] = useState(4);
-  const [availability, setAvailability] = useState("Flexible");
-  const [category, setCategory] = useState("");
+  const [availability, setAvailability] = useState("Flexible (Any Sprint Schedule)");
+  const [category, setCategory] = useState("AI / Sustainability");
 
   useEffect(() => {
     if (selectedPreset) {
       setDescription(selectedPreset.description);
       setTeamSize(selectedPreset.desiredTeamSize);
       setCategory(selectedPreset.category);
-      setAvailability("Flexible");
+      setAvailability("Flexible (Any Sprint Schedule)");
     }
   }, [selectedPreset]);
 
@@ -49,144 +49,177 @@ export const ProjectForm: React.FC<ProjectFormProps> = ({
   };
 
   return (
-    <div id="project-form-section" className="w-full max-w-[1280px] mx-auto px-4 sm:px-8 md:px-16 py-10">
-      <div className="bg-surface-container-lowest border border-outline-variant rounded-2xl p-6 sm:p-10 shadow-[0_20px_50px_rgba(0,0,0,0.03)]">
-        {/* Header */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-outline-variant">
+    <div id="project-form-section" className="w-full max-w-[1280px] mx-auto px-4 sm:px-8 md:px-16 py-6">
+      <div className="bg-white border border-[#e2e2e2] rounded-[2.5rem] p-8 sm:p-12 shadow-[0_20px_50px_rgba(0,0,0,0.03)]">
+        {/* Header Section */}
+        <div className="flex flex-col md:flex-row md:items-start justify-between gap-6">
           <div>
-            <span className="text-xs font-semibold uppercase tracking-wider text-secondary">
-              Project Builder
+            <span className="text-[11px] font-bold uppercase tracking-wider text-[#747878] block mb-2">
+              PROJECT BUILDER
             </span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-primary tracking-tight mt-1">
-              Describe What You're Building
+            <h2 className="text-4xl sm:text-5xl font-extrabold text-black tracking-tight leading-[1.05] max-w-sm">
+              Describe<br />
+              What<br />
+              You're<br />
+              Building
             </h2>
-            <p className="text-sm text-secondary mt-1">
+            <p className="text-xs sm:text-sm text-[#5d5f5f] mt-4 max-w-xs leading-relaxed font-normal">
               Our AI analyzes your technical requirements and deterministically builds the ideal team.
             </p>
           </div>
 
-          {/* Quick Preset Selector */}
-          <div className="flex items-center gap-1.5 flex-wrap">
-            <span className="text-xs text-secondary font-medium mr-1">Presets:</span>
-            {DEMO_PRESETS.map((preset) => (
-              <button
-                key={preset.id}
-                type="button"
-                onClick={() => handleSelectSample(preset)}
-                className="px-3 py-1 text-xs rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface border border-outline-variant font-medium transition-colors"
-                title={preset.tagline}
-              >
-                {preset.title.split(" ")[1] || preset.title.split(" ")[0]}
-              </button>
-            ))}
+          {/* Quick Preset Selector Pills */}
+          <div className="flex items-center gap-2 flex-wrap md:justify-end pt-1">
+            <span className="text-xs text-[#5d5f5f] font-medium mr-1">Presets:</span>
+            {DEMO_PRESETS.map((preset) => {
+              const label =
+                preset.id === "preset-waste-ai"
+                  ? "Campus"
+                  : preset.id === "preset-pothole-cv"
+                  ? "Pothole"
+                  : preset.id === "preset-agritech-drone"
+                  ? "Agritech"
+                  : preset.id === "preset-mental-wellness"
+                  ? "Mental"
+                  : "Micro-Lending";
+
+              const isActive = description === preset.description;
+
+              return (
+                <button
+                  key={preset.id}
+                  type="button"
+                  onClick={() => handleSelectSample(preset)}
+                  className={`px-3.5 py-1 text-xs rounded-full border transition-all font-medium ${
+                    isActive
+                      ? "bg-black text-white border-black"
+                      : "bg-white text-[#444748] border-[#c4c7c7] hover:border-black hover:text-black"
+                  }`}
+                >
+                  {label}
+                </button>
+              );
+            })}
           </div>
         </div>
 
+        {/* Divider */}
+        <div className="w-full h-px bg-[#e8e8e8] my-8" />
+
         {/* Form */}
-        <form onSubmit={handleSubmit} className="mt-6 space-y-6">
+        <form onSubmit={handleSubmit} className="space-y-6">
+          {/* Project Description Block */}
           <div>
-            <label className="block text-xs font-semibold uppercase tracking-wider text-primary mb-2">
-              Project Description <span className="text-red-500">*</span>
+            <label className="block text-[11px] font-bold uppercase tracking-wider text-[#1a1c1c] mb-3">
+              PROJECT DESCRIPTION <span className="text-red-500">*</span>
             </label>
-            <textarea
-              value={description}
-              onChange={(e) => setDescription(e.target.value)}
-              placeholder="e.g. Build an AI-powered system that detects plant diseases from smartphone images and recommends treatments. We need a team of 4 with machine learning, mobile, and agritech domain expertise..."
-              rows={4}
-              required
-              disabled={isLoading}
-              className="w-full px-4 py-3 text-sm text-on-surface bg-surface-container-low border border-outline-variant rounded-xl focus:bg-surface-container-lowest focus:border-primary focus:outline-none transition-all placeholder:text-secondary/60 resize-none"
-            />
-            <div className="flex justify-between text-[11px] text-secondary mt-1">
+            <div className="bg-[#f3f3f4] rounded-2xl p-4 sm:p-5 border border-transparent focus-within:border-black focus-within:bg-white transition-all">
+              <textarea
+                value={description}
+                onChange={(e) => setDescription(e.target.value)}
+                placeholder="We are building an AI-powered system..."
+                rows={4}
+                required
+                disabled={isLoading}
+                className="w-full text-sm text-[#1a1c1c] bg-transparent border-0 focus:ring-0 focus:outline-none placeholder:text-[#858383] resize-none leading-relaxed p-0"
+              />
+            </div>
+            <div className="flex justify-between items-center text-[11px] text-[#747878] mt-2 px-1">
               <span>Be as specific as possible about the technical components.</span>
-              <span>{description.length} chars</span>
+              <span className="font-mono">{description.length} chars</span>
             </div>
           </div>
 
-          {/* Controls Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            {/* Team Size */}
-            <div className="p-4 rounded-xl bg-surface-container-low border border-outline-variant">
-              <label className="flex items-center justify-between text-xs font-semibold text-primary mb-2">
-                <span className="flex items-center gap-1.5">
-                  <Users className="w-3.5 h-3.5 text-secondary" />
-                  Target Team Size
-                </span>
-                <span className="px-2 py-0.5 rounded-full bg-primary text-on-primary text-[11px] font-bold">
-                  {teamSize} People
-                </span>
-              </label>
-              <input
-                type="range"
-                min={2}
-                max={6}
-                step={1}
-                value={teamSize}
-                onChange={(e) => setTeamSize(Number(e.target.value))}
-                disabled={isLoading}
-                className="w-full accent-primary cursor-pointer"
-              />
-              <div className="flex justify-between text-[10px] text-secondary mt-1 font-mono">
+          {/* 3 Parameter Controls Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+            {/* 1. Target Team Size */}
+            <div className="bg-[#f3f3f4] rounded-2xl p-4 sm:p-5 flex flex-col justify-between min-h-[140px]">
+              <div>
+                <div className="flex items-center justify-between gap-2 mb-3">
+                  <span className="flex items-center gap-1.5 text-xs font-semibold text-[#1a1c1c]">
+                    <Users className="w-4 h-4 text-[#5d5f5f]" />
+                    Target Team Size
+                  </span>
+                  <span className="px-3 py-1 rounded-full bg-black text-white text-[11px] font-bold">
+                    {teamSize} People
+                  </span>
+                </div>
+                <input
+                  type="range"
+                  min={2}
+                  max={6}
+                  step={1}
+                  value={teamSize}
+                  onChange={(e) => setTeamSize(Number(e.target.value))}
+                  disabled={isLoading}
+                  className="w-full accent-black cursor-pointer h-1.5 bg-[#e2e2e2] rounded-lg"
+                />
+              </div>
+              <div className="flex justify-between text-[10px] text-[#747878] mt-2 font-mono">
                 <span>2 (Duo)</span>
                 <span>4 (Standard)</span>
                 <span>6 (Squad)</span>
               </div>
             </div>
 
-            {/* Availability */}
-            <div className="p-4 rounded-xl bg-surface-container-low border border-outline-variant">
-              <label className="flex items-center gap-1.5 text-xs font-semibold text-primary mb-2">
-                <Clock className="w-3.5 h-3.5 text-secondary" />
-                Availability Requirement
-              </label>
-              <select
-                value={availability}
-                onChange={(e) => setAvailability(e.target.value)}
-                disabled={isLoading}
-                className="w-full px-3 py-2 text-xs text-on-surface bg-surface-container-lowest border border-outline-variant rounded-lg focus:outline-none focus:border-primary"
-              >
-                <option value="Flexible">Flexible (Any Sprint Schedule)</option>
-                <option value="Weekdays">Weekdays (Daytime / Regular)</option>
-                <option value="Evenings">Evenings (Post-Class Sessions)</option>
-                <option value="Weekends">Weekends (Hackathon Sprint)</option>
-              </select>
-              <p className="text-[10px] text-secondary mt-1">Filters out schedule mismatches</p>
+            {/* 2. Availability Requirement */}
+            <div className="bg-[#f3f3f4] rounded-2xl p-4 sm:p-5 flex flex-col justify-between min-h-[140px]">
+              <div>
+                <label className="flex items-center gap-1.5 text-xs font-semibold text-[#1a1c1c] mb-2.5">
+                  <Clock className="w-4 h-4 text-[#5d5f5f]" />
+                  Availability Requirement
+                </label>
+                <select
+                  value={availability}
+                  onChange={(e) => setAvailability(e.target.value)}
+                  disabled={isLoading}
+                  className="w-full px-3.5 py-2 text-xs text-[#1a1c1c] bg-white border border-[#c4c7c7] rounded-full focus:outline-none focus:border-black font-medium"
+                >
+                  <option value="Flexible (Any Sprint Schedule)">Flexible (Any Sprint Schedule)</option>
+                  <option value="Weekdays (Daytime / Regular)">Weekdays (Daytime / Regular)</option>
+                  <option value="Evenings (Post-Class Sessions)">Evenings (Post-Class Sessions)</option>
+                  <option value="Weekends (Hackathon Sprint)">Weekends (Hackathon Sprint)</option>
+                </select>
+              </div>
+              <p className="text-[10px] text-[#747878] mt-2">Filters out schedule mismatches</p>
             </div>
 
-            {/* Category */}
-            <div className="p-4 rounded-xl bg-surface-container-low border border-outline-variant">
-              <label className="flex items-center gap-1.5 text-xs font-semibold text-primary mb-2">
-                <Tag className="w-3.5 h-3.5 text-secondary" />
-                Category (Optional)
-              </label>
-              <input
-                type="text"
-                value={category}
-                onChange={(e) => setCategory(e.target.value)}
-                placeholder="e.g. AI / Smart Cities"
-                disabled={isLoading}
-                className="w-full px-3 py-2 text-xs text-on-surface bg-surface-container-lowest border border-outline-variant rounded-lg focus:outline-none focus:border-primary placeholder:text-secondary/60"
-              />
-              <p className="text-[10px] text-secondary mt-1">Leave blank for automatic inference</p>
+            {/* 3. Category (Optional) */}
+            <div className="bg-[#f3f3f4] rounded-2xl p-4 sm:p-5 flex flex-col justify-between min-h-[140px]">
+              <div>
+                <label className="flex items-center gap-1.5 text-xs font-semibold text-[#1a1c1c] mb-2.5">
+                  <Tag className="w-4 h-4 text-[#5d5f5f]" />
+                  Category (Optional)
+                </label>
+                <input
+                  type="text"
+                  value={category}
+                  onChange={(e) => setCategory(e.target.value)}
+                  placeholder="e.g. AI / Sustainability"
+                  disabled={isLoading}
+                  className="w-full px-3.5 py-2 text-xs text-[#1a1c1c] bg-white border border-[#c4c7c7] rounded-full focus:outline-none focus:border-black font-medium placeholder:text-[#858383]"
+                />
+              </div>
+              <p className="text-[10px] text-[#747878] mt-2">Leave blank for automatic inference</p>
             </div>
           </div>
 
-          {/* Submit CTA */}
-          <div className="pt-2">
+          {/* Submit Button */}
+          <div className="pt-4">
             <button
               type="submit"
               disabled={isLoading || !description.trim()}
-              className="w-full py-4 px-8 rounded-full font-semibold text-sm text-on-primary bg-primary hover:opacity-90 disabled:opacity-50 transition-all flex items-center justify-center gap-2 shadow-sm"
+              className="w-full py-4 px-8 rounded-full font-bold text-sm text-white bg-black hover:opacity-90 disabled:opacity-50 transition-all flex items-center justify-center gap-2 shadow-sm"
             >
               {isLoading ? (
                 <>
                   <RefreshCw className="w-4 h-4 animate-spin" />
-                  Analyzing Project & Composing Team...
+                  <span>Analyzing Project & Matching Team...</span>
                 </>
               ) : (
                 <>
                   <span>Analyze Project & Match Team</span>
-                  <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
+                  <span className="text-base font-normal">→</span>
                 </>
               )}
             </button>

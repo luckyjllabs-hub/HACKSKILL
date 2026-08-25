@@ -3,217 +3,217 @@
 import React from "react";
 import { TeamHealthReport } from "@/types/matching";
 import {
-  HeartPulse,
-  AlertTriangle,
+  Activity,
   CheckCircle2,
+  AlertTriangle,
   XCircle,
-  Users2,
+  Users,
   Sparkles,
   ArrowRight,
-  ShieldAlert,
+  ShieldCheck,
+  RefreshCw,
 } from "lucide-react";
 
 interface TeamHealthPanelProps {
   teamHealth: TeamHealthReport;
-  onFindMissingTeammate: (skill?: string) => void;
-  isFindingTeammate: boolean;
+  onFindMissingTeammate: (targetSkill?: string) => void;
+  isFindingTeammate?: boolean;
 }
 
 export const TeamHealthPanel: React.FC<TeamHealthPanelProps> = ({
   teamHealth,
   onFindMissingTeammate,
-  isFindingTeammate,
+  isFindingTeammate = false,
 }) => {
-  const isOptimal = teamHealth.overallHealth === "Optimal";
-  const hasCriticalGaps =
-    teamHealth.overallHealth === "Critical Gaps" ||
-    teamHealth.missingSkills.length > 0;
+  const getStatusBadge = () => {
+    if (teamHealth.missingSkills.length > 0) {
+      return {
+        label: `CRITICAL GAPS (${teamHealth.healthScore}%)`,
+        className: "border-[#ef4444] text-[#dc2626] bg-[#fee2e2]/40",
+      };
+    }
+    if (teamHealth.weakSkills.length > 0) {
+      return {
+        label: `NEEDS ATTENTION (${teamHealth.healthScore}%)`,
+        className: "border-[#f59e0b] text-[#d97706] bg-[#fef3c7]/40",
+      };
+    }
+    return {
+      label: `OPTIMAL (${teamHealth.healthScore}%)`,
+      className: "border-[#10b981] text-[#059669] bg-[#d1fae5]/40",
+    };
+  };
+
+  const statusBadge = getStatusBadge();
 
   return (
-    <div className="bg-surface-container-lowest border border-outline-variant rounded-2xl p-6 sm:p-8 shadow-[0_20px_50px_rgba(0,0,0,0.03)] space-y-6">
-      {/* Panel Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-outline-variant">
-        <div className="flex items-center gap-3.5">
-          <div className="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-primary">
-            <HeartPulse className="w-5 h-5" />
+    <div className="bg-white border border-[#e2e2e2] rounded-[2.5rem] p-8 sm:p-10 shadow-[0_20px_50px_rgba(0,0,0,0.02)] space-y-6 hover-lift">
+      {/* Header */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div className="flex items-center gap-4">
+          <div className="w-12 h-12 rounded-2xl bg-[#f3f3f4] flex items-center justify-center text-black">
+            <Activity className="w-6 h-6" />
           </div>
           <div>
-            <div className="flex items-center gap-2">
-              <h3 className="text-xl font-bold text-primary tracking-tight">Team Health & Skill Gap Detector</h3>
+            <div className="flex items-center gap-3 flex-wrap">
+              <h3 className="text-2xl sm:text-3xl font-extrabold text-black tracking-tight">
+                Team Health & Skill Gap Detector
+              </h3>
               <span
-                className={`text-xs px-3 py-0.5 rounded-full font-bold uppercase ${
-                  hasCriticalGaps
-                    ? "bg-red-50 text-red-700 border border-red-200"
-                    : isOptimal
-                    ? "bg-emerald-50 text-emerald-700 border border-emerald-200"
-                    : "bg-amber-50 text-amber-700 border border-amber-200"
-                }`}
+                className={`px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider border ${statusBadge.className}`}
               >
-                {teamHealth.overallHealth} ({teamHealth.healthScore}%)
+                {statusBadge.label}
               </span>
             </div>
-            <p className="text-xs text-secondary mt-0.5">
+            <p className="text-xs sm:text-sm text-[#747878] mt-1 font-normal">
               Live capability audit across all project required and preferred milestones.
             </p>
           </div>
         </div>
 
-        {/* Action Button if gaps exist */}
-        {hasCriticalGaps && (
+        {/* 1-Click Gap Solver Action */}
+        {teamHealth.missingSkills.length > 0 && (
           <button
-            onClick={() =>
-              onFindMissingTeammate(teamHealth.criticalGapDetected || undefined)
-            }
+            onClick={() => onFindMissingTeammate(teamHealth.missingSkills[0]?.skill)}
             disabled={isFindingTeammate}
-            className="flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-bold text-on-primary bg-primary hover:opacity-90 transition-all shadow-sm"
+            className="bg-black text-white text-xs font-semibold px-5 py-2.5 rounded-full hover:opacity-90 transition-all flex items-center gap-2 btn-press whitespace-nowrap shadow-sm"
           >
-            <Sparkles className="w-3.5 h-3.5" />
-            {isFindingTeammate ? "Solving Gap..." : "Find Missing Teammate"}
-            <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
+            {isFindingTeammate ? (
+              <>
+                <RefreshCw className="w-3.5 h-3.5 animate-spin" />
+                <span>Finding Candidate...</span>
+              </>
+            ) : (
+              <>
+                <Sparkles className="w-3.5 h-3.5" />
+                <span>Resolve Missing Gap</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </>
+            )}
           </button>
         )}
       </div>
 
-      {/* Critical Gap Banner if detected */}
-      {hasCriticalGaps && teamHealth.criticalGapDetected && (
-        <div className="p-4 rounded-xl bg-surface-container-low border border-outline-variant flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-          <div className="flex items-start gap-3">
-            <ShieldAlert className="w-5 h-5 text-red-600 shrink-0 mt-0.5" />
-            <div>
-              <div className="text-xs font-bold text-red-700">
-                CRITICAL SKILL GAP DETECTED: {teamHealth.criticalGapDetected}
-              </div>
-              <p className="text-xs text-secondary mt-0.5">
-                The current team lacks verified expertise in{" "}
-                <span className="font-semibold text-primary">
-                  {teamHealth.criticalGapDetected}
-                </span>
-                . This creates execution risk for core project milestones.
-              </p>
+      {/* Divider */}
+      <div className="w-full h-px bg-[#e8e8e8] my-6" />
+
+      {/* 2x2 Grid (4 Cards) */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* 1. Covered Card */}
+        <div className="bg-[#f8f9fa] border border-[#e8e8e8] rounded-2xl p-6 space-y-3">
+          <div className="flex items-center justify-between pb-1">
+            <div className="flex items-center gap-2 text-sm font-bold text-black">
+              <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+              <span>Covered ({teamHealth.coveredSkills.length})</span>
             </div>
+            <span className="text-xs text-[#747878] font-medium">✓ Strong</span>
           </div>
 
-          <button
-            onClick={() => onFindMissingTeammate(teamHealth.criticalGapDetected!)}
-            disabled={isFindingTeammate}
-            className="px-4 py-2 rounded-full text-xs font-bold text-on-primary bg-primary hover:opacity-90 shrink-0 transition-colors"
-          >
-            Resolve Gap
-          </button>
-        </div>
-      )}
-
-      {/* Skill Matrix Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {/* Covered Skills */}
-        <div className="p-4 rounded-xl bg-surface-container-low border border-outline-variant">
-          <div className="flex items-center justify-between text-xs font-bold text-primary mb-2.5">
-            <span className="flex items-center gap-1.5">
-              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
-              Covered ({teamHealth.coveredSkills.length})
-            </span>
-            <span className="text-[10px] text-secondary">✓ Strong</span>
-          </div>
-          <div className="space-y-1.5">
-            {teamHealth.coveredSkills.map((item, idx) => (
-              <div
-                key={idx}
-                className="p-2.5 rounded-lg bg-surface-container-lowest border border-outline-variant flex items-center justify-between text-xs"
-              >
-                <span className="font-semibold text-primary">{item.skill}</span>
-                <span className="text-[10px] text-secondary">
-                  {item.coveredBy.map((c) => c.studentName.split(" ")[0]).join(", ")}
-                </span>
-              </div>
-            ))}
-            {teamHealth.coveredSkills.length === 0 && (
-              <span className="text-xs text-secondary italic">No skills covered</span>
-            )}
-          </div>
-        </div>
-
-        {/* Weak Skills */}
-        <div className="p-4 rounded-xl bg-surface-container-low border border-outline-variant">
-          <div className="flex items-center justify-between text-xs font-bold text-primary mb-2.5">
-            <span className="flex items-center gap-1.5">
-              <AlertTriangle className="w-3.5 h-3.5 text-amber-600" />
-              Weak ({teamHealth.weakSkills.length})
-            </span>
-            <span className="text-[10px] text-secondary">⚠ Low Depth</span>
-          </div>
-          <div className="space-y-1.5">
-            {teamHealth.weakSkills.map((item, idx) => (
-              <div
-                key={idx}
-                className="p-2.5 rounded-lg bg-surface-container-lowest border border-outline-variant flex items-center justify-between text-xs"
-              >
-                <span className="font-semibold text-primary">{item.skill}</span>
-                <span className="text-[10px] text-secondary">
-                  {item.coveredBy.length > 0
-                    ? item.coveredBy.map((c) => c.studentName.split(" ")[0]).join(", ")
-                    : "No Expert"}
-                </span>
-              </div>
-            ))}
-            {teamHealth.weakSkills.length === 0 && (
-              <span className="text-xs text-secondary italic">No weak skills</span>
-            )}
-          </div>
-        </div>
-
-        {/* Missing Skills */}
-        <div className="p-4 rounded-xl bg-surface-container-low border border-outline-variant">
-          <div className="flex items-center justify-between text-xs font-bold text-primary mb-2.5">
-            <span className="flex items-center gap-1.5">
-              <XCircle className="w-3.5 h-3.5 text-red-600" />
-              Missing ({teamHealth.missingSkills.length})
-            </span>
-            <span className="text-[10px] text-red-600 font-semibold">✕ Unmet</span>
-          </div>
-          <div className="space-y-1.5">
-            {teamHealth.missingSkills.map((item, idx) => (
-              <div
-                key={idx}
-                className="p-2.5 rounded-lg bg-surface-container-lowest border border-red-200 flex items-center justify-between text-xs"
-              >
-                <span className="font-semibold text-primary">{item.skill}</span>
-                <button
-                  onClick={() => onFindMissingTeammate(item.skill)}
-                  className="text-[10px] font-bold text-primary hover:underline"
+          <div className="space-y-2.5">
+            {teamHealth.coveredSkills.length > 0 ? (
+              teamHealth.coveredSkills.map((c, idx) => (
+                <div
+                  key={idx}
+                  className="bg-white border border-[#e2e2e2] rounded-full px-5 py-3 flex items-center justify-between shadow-2xs"
                 >
-                  Find Solver →
-                </button>
-              </div>
-            ))}
-            {teamHealth.missingSkills.length === 0 && (
-              <span className="text-xs text-secondary italic">No missing required skills</span>
+                  <span className="font-bold text-xs text-black">{c.skill}</span>
+                  <span className="text-xs text-[#747878] font-medium">
+                    {c.coveredBy.map((s) => s.studentName.split(" ")[0]).join(", ")}
+                  </span>
+                </div>
+              ))
+            ) : (
+              <p className="text-xs text-[#747878] italic pt-1">No covered skills</p>
             )}
           </div>
         </div>
 
-        {/* Redundant Skills */}
-        <div className="p-4 rounded-xl bg-surface-container-low border border-outline-variant">
-          <div className="flex items-center justify-between text-xs font-bold text-primary mb-2.5">
-            <span className="flex items-center gap-1.5">
-              <Users2 className="w-3.5 h-3.5 text-secondary" />
-              Overlaps ({teamHealth.redundantSkills.length})
-            </span>
-            <span className="text-[10px] text-secondary">3+ Members</span>
+        {/* 2. Weak Card */}
+        <div className="bg-[#f8f9fa] border border-[#e8e8e8] rounded-2xl p-6 space-y-3">
+          <div className="flex items-center justify-between pb-1">
+            <div className="flex items-center gap-2 text-sm font-bold text-black">
+              <AlertTriangle className="w-4 h-4 text-amber-500" />
+              <span>Weak ({teamHealth.weakSkills.length})</span>
+            </div>
+            <span className="text-xs text-[#747878] font-medium">⚠ Low Depth</span>
           </div>
-          <div className="space-y-1.5">
-            {teamHealth.redundantSkills.map((item, idx) => (
-              <div
-                key={idx}
-                className="p-2.5 rounded-lg bg-surface-container-lowest border border-outline-variant flex items-center justify-between text-xs"
-              >
-                <span className="font-semibold text-primary">{item.skill}</span>
-                <span className="text-[10px] text-secondary font-mono">
-                  {item.coveredBy.length}x duplicate
-                </span>
-              </div>
-            ))}
-            {teamHealth.redundantSkills.length === 0 && (
-              <span className="text-xs text-secondary italic">No excessive redundancy</span>
+
+          <div className="space-y-2.5">
+            {teamHealth.weakSkills.length > 0 ? (
+              teamHealth.weakSkills.map((w, idx) => (
+                <div
+                  key={idx}
+                  className="bg-white border border-[#e2e2e2] rounded-full px-5 py-3 flex items-center justify-between shadow-2xs"
+                >
+                  <span className="font-bold text-xs text-black">{w.skill}</span>
+                  <span className="text-xs text-[#747878] font-medium">No Expert</span>
+                </div>
+              ))
+            ) : (
+              <p className="text-xs text-[#747878] italic pt-1">No weak skill bottlenecks</p>
+            )}
+          </div>
+        </div>
+
+        {/* 3. Missing Card */}
+        <div className="bg-[#f8f9fa] border border-[#e8e8e8] rounded-2xl p-6 space-y-3">
+          <div className="flex items-center justify-between pb-1">
+            <div className="flex items-center gap-2 text-sm font-bold text-black">
+              <XCircle className="w-4 h-4 text-red-500" />
+              <span>Missing ({teamHealth.missingSkills.length})</span>
+            </div>
+            <span className="text-xs text-[#747878] font-medium">✕ Unmet</span>
+          </div>
+
+          <div className="space-y-2.5">
+            {teamHealth.missingSkills.length > 0 ? (
+              teamHealth.missingSkills.map((m, idx) => (
+                <div
+                  key={idx}
+                  className="bg-white border border-[#ef4444]/40 rounded-full px-5 py-2.5 flex items-center justify-between shadow-2xs"
+                >
+                  <span className="font-bold text-xs text-red-600">{m.skill}</span>
+                  <button
+                    onClick={() => onFindMissingTeammate(m.skill)}
+                    disabled={isFindingTeammate}
+                    className="bg-black text-white text-[11px] font-semibold px-3 py-1 rounded-full hover:opacity-90 transition-all flex items-center gap-1 btn-press"
+                  >
+                    <span>Resolve Gap</span>
+                    <ArrowRight className="w-3 h-3" />
+                  </button>
+                </div>
+              ))
+            ) : (
+              <p className="text-xs text-[#747878] italic pt-1">No missing required skills</p>
+            )}
+          </div>
+        </div>
+
+        {/* 4. Overlaps Card */}
+        <div className="bg-[#f8f9fa] border border-[#e8e8e8] rounded-2xl p-6 space-y-3">
+          <div className="flex items-center justify-between pb-1">
+            <div className="flex items-center gap-2 text-sm font-bold text-black">
+              <Users className="w-4 h-4 text-black" />
+              <span>Overlaps ({teamHealth.redundantSkills.length})</span>
+            </div>
+            <span className="text-xs text-[#747878] font-medium">3+ Members</span>
+          </div>
+
+          <div className="space-y-2.5">
+            {teamHealth.redundantSkills.length > 0 ? (
+              teamHealth.redundantSkills.map((r, idx) => (
+                <div
+                  key={idx}
+                  className="bg-white border border-[#e2e2e2] rounded-full px-5 py-3 flex items-center justify-between shadow-2xs"
+                >
+                  <span className="font-bold text-xs text-black">{r.skill}</span>
+                  <span className="text-xs text-[#747878] font-medium">
+                    {r.coveredBy.length} Members
+                  </span>
+                </div>
+              ))
+            ) : (
+              <p className="text-xs text-[#747878] italic pt-1">No excessive redundancy</p>
             )}
           </div>
         </div>

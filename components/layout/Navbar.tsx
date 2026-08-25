@@ -105,8 +105,8 @@ export const Navbar: React.FC<NavbarProps> = ({
               className="text-sm text-secondary hover:text-primary transition-colors flex items-center gap-1.5"
             >
               <span>For Students</span>
-              <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-surface-container font-semibold">
-                35
+              <span className="text-[10px] px-2 py-0.2 rounded-full bg-surface-container font-semibold">
+                500
               </span>
             </button>
             <button

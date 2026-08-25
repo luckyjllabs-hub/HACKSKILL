@@ -3,12 +3,6 @@
 import React from "react";
 import { ProjectAnalysisResult } from "@/types/project";
 import {
-  Sparkles,
-  Layers,
-  Users,
-  Clock,
-  Briefcase,
-  Code2,
   Cpu,
   Layout,
   Database,
@@ -56,7 +50,7 @@ export const ProjectRequirementsCard: React.FC<ProjectRequirementsCardProps> = (
 
   const summaryText =
     project.summary ||
-    `The proposed platform requires a robust architecture capable of deterministic capability matching. Key challenges include maintaining low-latency responses while processing multidimensional candidate vectors. The team structure is optimized to balance technical execution with domain expertise.`;
+    `The proposed platform requires a robust backend capable of real-time data processing and advanced predictive modeling. Key challenges include maintaining low-latency responses while processing high volumes of transactional data. The front-end needs to present complex financial analytics in an intuitive, accessible dashboard format.`;
 
   return (
     <section className="space-y-6 animate-fadeInUp">
@@ -77,7 +71,12 @@ export const ProjectRequirementsCard: React.FC<ProjectRequirementsCardProps> = (
               if (onScrollToTeam) {
                 onScrollToTeam();
               } else {
-                window.scrollBy({ top: 500, behavior: "smooth" });
+                const el = document.getElementById("team-composer-section");
+                if (el) {
+                  el.scrollIntoView({ behavior: "smooth" });
+                } else {
+                  window.scrollBy({ top: 500, behavior: "smooth" });
+                }
               }
             }}
             className="bg-black text-white text-xs font-semibold px-6 py-2.5 rounded-full hover:opacity-90 transition-all btn-press shadow-sm flex items-center gap-1.5"
@@ -90,52 +89,30 @@ export const ProjectRequirementsCard: React.FC<ProjectRequirementsCardProps> = (
       {/* 2-Column Grid: Project Overview & Parameters */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Left Card: Project Overview (Spans 2 cols on lg) */}
-        <div className="lg:col-span-2 bg-white border border-[#e2e2e2] rounded-[2rem] p-6 sm:p-8 shadow-[0_20px_50px_rgba(0,0,0,0.02)] flex flex-col justify-between hover-lift">
-          <div>
-            {/* Top Row: Title & Domain Chips */}
-            <div className="flex items-center justify-between gap-3 flex-wrap">
-              <h3 className="text-xl sm:text-2xl font-bold text-black tracking-tight">
-                Project Overview
-              </h3>
-              <div className="flex items-center gap-1.5 flex-wrap">
-                {project.domain.map((dom, idx) => (
-                  <span
-                    key={idx}
-                    className="bg-[#f3f3f4] text-[#5d5f5f] text-xs px-3 py-1 rounded-full font-medium border border-[#e8e8e8]"
-                  >
-                    {dom}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            {/* Graphic Illustration Mockup Banner */}
-            <div className="bg-[#f8f9fa] border border-[#e8e8e8] rounded-2xl p-6 my-6 flex flex-col items-center justify-center text-center relative overflow-hidden min-h-[160px]">
-              <div className="space-y-1.5 max-w-md z-10">
-                <h4 className="text-xl sm:text-2xl font-extrabold text-black tracking-tight">
-                  {project.projectCategory}
-                </h4>
-                <p className="text-xs text-[#747878] font-normal leading-relaxed">
-                  Autonomous team formulation & deterministic capability distribution
-                </p>
-                <div className="pt-2 flex items-center justify-center gap-2">
-                  <span className="text-[10px] bg-black text-white px-3 py-0.5 rounded-full font-semibold">
-                    Live Specification
-                  </span>
-                  <span className="text-[10px] bg-white text-[#5d5f5f] border border-[#e2e2e2] px-3 py-0.5 rounded-full font-medium">
-                    {project.requiredSkills.length} Verified Capabilities
-                  </span>
-                </div>
-              </div>
+        <div className="lg:col-span-2 bg-white border border-[#e2e2e2] rounded-[2rem] p-6 sm:p-8 shadow-[0_20px_50px_rgba(0,0,0,0.02)] flex flex-col justify-start hover-lift">
+          {/* Top Row: Title & Domain Chips */}
+          <div className="flex items-center justify-between gap-3 flex-wrap pb-4 border-b border-[#f0f0f0]">
+            <h3 className="text-xl sm:text-2xl font-bold text-black tracking-tight">
+              Project Overview
+            </h3>
+            <div className="flex items-center gap-1.5 flex-wrap">
+              {project.domain.map((dom, idx) => (
+                <span
+                  key={idx}
+                  className="bg-[#f3f3f4] text-[#5d5f5f] text-xs px-3 py-1 rounded-full font-medium border border-[#e8e8e8]"
+                >
+                  {dom}
+                </span>
+              ))}
             </div>
           </div>
 
-          {/* Bottom AI Summary */}
-          <div>
-            <span className="text-[10px] font-bold tracking-wider text-[#747878] uppercase mb-2 block">
+          {/* AI Summary Moved Directly to the Top with Bigger, Legible Typography */}
+          <div className="pt-6 space-y-3">
+            <span className="text-[11px] font-bold tracking-wider text-[#747878] uppercase block">
               AI SUMMARY
             </span>
-            <p className="text-xs sm:text-sm text-[#5d5f5f] leading-relaxed font-normal">
+            <p className="text-base sm:text-lg text-[#333536] leading-relaxed font-normal">
               {summaryText}
             </p>
           </div>
@@ -176,7 +153,7 @@ export const ProjectRequirementsCard: React.FC<ProjectRequirementsCardProps> = (
               Estimated Timeline
             </span>
             <p className="text-xl sm:text-2xl font-extrabold text-black tracking-tight">
-              8 - 12 Weeks
+              12 - 16 Weeks
             </p>
           </div>
         </div>

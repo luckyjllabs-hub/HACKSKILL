@@ -75,7 +75,14 @@ export async function saveProjectRecord(record: any): Promise<{ id: string; save
   try {
     let projects: any[] = [];
     if (fs.existsSync(PROJECTS_FILE)) {
-      projects = JSON.parse(fs.readFileSync(PROJECTS_FILE, "utf-8"));
+      try {
+        const raw = fs.readFileSync(PROJECTS_FILE, "utf-8").trim();
+        if (raw) {
+          projects = JSON.parse(raw);
+        }
+      } catch (parseErr) {
+        projects = [];
+      }
     }
     projects = [recordWithId, ...projects.filter((p: any) => p.id !== id)];
     fs.writeFileSync(PROJECTS_FILE, JSON.stringify(projects, null, 2), "utf-8");

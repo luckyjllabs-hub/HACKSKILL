@@ -3,6 +3,213 @@
     "project": {
       "projectCategory": "AI / Sustainability",
       "domain": [
+        "Sustainability"
+      ],
+      "requiredSkills": [
+        "Machine Learning"
+      ],
+      "preferredSkills": [],
+      "roles": [
+        "ML Engineer"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [],
+      "availabilityRequirement": "Flexible"
+    },
+    "team": [],
+    "teamScore": 88,
+    "createdAt": "2026-08-25T09:20:12.503Z",
+    "id": "proj_1787649612504_y6apd",
+    "updatedAt": "2026-08-25T09:20:12.504Z"
+  },
+  {
+    "projectId": "test-proj-001",
+    "timestamp": "2026-08-25T09:20:12.499Z",
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability"
+      ],
+      "requiredSkills": [
+        "Machine Learning"
+      ],
+      "preferredSkills": [],
+      "roles": [
+        "ML Engineer"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [],
+      "availabilityRequirement": "Flexible"
+    },
+    "teamScore": 92,
+    "id": "proj_1787649612500_sd8dh",
+    "updatedAt": "2026-08-25T09:20:12.500Z"
+  },
+  {
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability"
+      ],
+      "requiredSkills": [
+        "Machine Learning"
+      ],
+      "preferredSkills": [],
+      "roles": [
+        "ML Engineer"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [],
+      "availabilityRequirement": "Flexible"
+    },
+    "team": [],
+    "teamScore": 88,
+    "createdAt": "2026-08-25T09:18:57.938Z",
+    "id": "proj_1787649537939_q24uv",
+    "updatedAt": "2026-08-25T09:18:57.939Z"
+  },
+  {
+    "projectId": "test-proj-001",
+    "timestamp": "2026-08-25T09:18:57.930Z",
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability"
+      ],
+      "requiredSkills": [
+        "Machine Learning"
+      ],
+      "preferredSkills": [],
+      "roles": [
+        "ML Engineer"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [],
+      "availabilityRequirement": "Flexible"
+    },
+    "teamScore": 92,
+    "id": "proj_1787649537931_pxjno",
+    "updatedAt": "2026-08-25T09:18:57.931Z"
+  },
+  {
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability"
+      ],
+      "requiredSkills": [
+        "Machine Learning"
+      ],
+      "preferredSkills": [],
+      "roles": [
+        "ML Engineer"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [],
+      "availabilityRequirement": "Flexible"
+    },
+    "team": [],
+    "teamScore": 88,
+    "createdAt": "2026-08-25T09:18:33.659Z",
+    "id": "proj_1787649513660_1rlhl",
+    "updatedAt": "2026-08-25T09:18:33.660Z"
+  },
+  {
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability"
+      ],
+      "requiredSkills": [
+        "Machine Learning"
+      ],
+      "preferredSkills": [],
+      "roles": [
+        "ML Engineer"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [],
+      "availabilityRequirement": "Flexible"
+    },
+    "team": [],
+    "teamScore": 88,
+    "createdAt": "2026-08-25T09:16:09.711Z",
+    "id": "proj_1787649369712_8adkf",
+    "updatedAt": "2026-08-25T09:16:09.712Z"
+  },
+  {
+    "projectId": "test-proj-001",
+    "timestamp": "2026-08-25T09:16:09.704Z",
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability"
+      ],
+      "requiredSkills": [
+        "Machine Learning"
+      ],
+      "preferredSkills": [],
+      "roles": [
+        "ML Engineer"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [],
+      "availabilityRequirement": "Flexible"
+    },
+    "teamScore": 92,
+    "id": "proj_1787649369705_4zrfe",
+    "updatedAt": "2026-08-25T09:16:09.705Z"
+  },
+  {
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability"
+      ],
+      "requiredSkills": [
+        "Machine Learning"
+      ],
+      "preferredSkills": [],
+      "roles": [
+        "ML Engineer"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [],
+      "availabilityRequirement": "Flexible"
+    },
+    "team": [],
+    "teamScore": 88,
+    "createdAt": "2026-08-25T09:15:00.833Z",
+    "id": "proj_1787649300834_vs6oc",
+    "updatedAt": "2026-08-25T09:15:00.834Z"
+  },
+  {
+    "projectId": "test-proj-001",
+    "timestamp": "2026-08-25T09:15:00.822Z",
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
+        "Sustainability"
+      ],
+      "requiredSkills": [
+        "Machine Learning"
+      ],
+      "preferredSkills": [],
+      "roles": [
+        "ML Engineer"
+      ],
+      "recommendedTeamSize": 4,
+      "experienceRequirements": [],
+      "availabilityRequirement": "Flexible"
+    },
+    "teamScore": 92,
+    "id": "proj_1787649300823_86mlo",
+    "updatedAt": "2026-08-25T09:15:00.823Z"
+  },
+  {
+    "project": {
+      "projectCategory": "AI / Sustainability",
+      "domain": [
         "Sustainability",
         "Smart Cities"
       ],

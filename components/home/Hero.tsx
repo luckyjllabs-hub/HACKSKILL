@@ -179,7 +179,7 @@ export const Hero: React.FC<HeroProps> = ({
               <span className="material-symbols-outlined text-4xl text-primary">psychology</span>
               <h3 className="text-2xl font-semibold text-primary">Smart Skill Mapping</h3>
               <p className="text-base text-secondary leading-relaxed">
-                Beyond just listing skills, our AI understands context, proficiency levels, and complementary abilities to balance your team's technical and soft skills.
+                Beyond just listing skills, our AI understands context, proficiency levels, and complementary abilities to balance your team&apos;s technical and soft skills.
               </p>
             </div>
             <div className="mt-8 h-32 bg-surface-container rounded-xl border border-outline-variant flex items-center justify-center text-xs text-secondary font-mono">

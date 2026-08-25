@@ -60,7 +60,7 @@ export const ProjectForm: React.FC<ProjectFormProps> = ({
             <h2 className="text-4xl sm:text-5xl font-extrabold text-black tracking-tight leading-[1.05] max-w-sm">
               Describe<br />
               What<br />
-              You're<br />
+              You&apos;re<br />
               Building
             </h2>
             <p className="text-xs sm:text-sm text-[#5d5f5f] mt-4 max-w-xs leading-relaxed font-normal">

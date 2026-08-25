@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useCallback } from "react";
+import dynamic from "next/dynamic";
 import { Navbar } from "@/components/layout/Navbar";
 import { Hero } from "@/components/home/Hero";
 import { ProjectForm } from "@/components/project/ProjectForm";
@@ -8,9 +9,19 @@ import { AnalysisProgress } from "@/components/project/AnalysisProgress";
 import { ProjectRequirementsCard } from "@/components/matching/ProjectRequirementsCard";
 import { TeamComposer } from "@/components/matching/TeamComposer";
 import { TeamHealthPanel } from "@/components/matching/TeamHealthPanel";
-import { MissingTeammateModal } from "@/components/matching/MissingTeammateModal";
-import { TalentDirectory } from "@/components/talent/TalentDirectory";
-import { ProfileDrawer } from "@/components/talent/ProfileDrawer";
+
+const MissingTeammateModal = dynamic(
+  () => import("@/components/matching/MissingTeammateModal").then((mod) => mod.MissingTeammateModal),
+  { ssr: false }
+);
+const TalentDirectory = dynamic(
+  () => import("@/components/talent/TalentDirectory").then((mod) => mod.TalentDirectory),
+  { ssr: false }
+);
+const ProfileDrawer = dynamic(
+  () => import("@/components/talent/ProfileDrawer").then((mod) => mod.ProfileDrawer),
+  { ssr: false }
+);
 import {
   ProjectAnalysisInput,
   ProjectAnalysisResult,

@@ -16,6 +16,7 @@ export async function POST(req: NextRequest) {
     });
 
     return NextResponse.json({
+      success: true,
       message: result.savedToFirebase
         ? "Project team successfully saved to Firebase Firestore."
         : "Project team saved to persistent database.",
@@ -25,7 +26,7 @@ export async function POST(req: NextRequest) {
   } catch (error: any) {
     console.error("[Save Project Error]:", error);
     return NextResponse.json(
-      { error: error.message || "Failed to save project record" },
+      { success: false, error: error.message || "Failed to save project record" },
       { status: 500 }
     );
   }

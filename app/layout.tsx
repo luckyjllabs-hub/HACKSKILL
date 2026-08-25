@@ -1,11 +1,44 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
+import { Inter } from "next/font/google";
 import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+  weight: ["300", "400", "500", "600", "700", "800"],
+});
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#f9f9f9",
+};
 
 export const metadata: Metadata = {
   title: "PROJECT AI-X — Build the right team, not just a team",
   description:
     "Describe your project idea and our AI will find the perfect teammates based on skills, interests, availability, and experience.",
-  keywords: ["AI team formation", "hackathon matching", "project match", "skill gap detection", "Gemini AI", "PROJECT AI-X"],
+  keywords: [
+    "AI team formation",
+    "hackathon matching",
+    "project match",
+    "skill gap detection",
+    "Gemini AI",
+    "PROJECT AI-X",
+  ],
+  authors: [{ name: "PROJECT AI-X Team" }],
+  openGraph: {
+    title: "PROJECT AI-X — Build the right team, not just a team",
+    description:
+      "AI-powered multi-factor student team formation and critical skill gap resolution platform.",
+    type: "website",
+    locale: "en_US",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
@@ -14,16 +47,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="light">
+    <html lang="en" className={`light ${inter.variable}`}>
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#f9f9f9" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-          rel="stylesheet"
-        />
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
           rel="stylesheet"
